@@ -1,0 +1,1434 @@
+,Column_name,Branches,Child_Columns,Depth,Target,Parent_Col,Parent_Branch
+0,addr1,"['106.0' '110.0' '111.0' '122.0' '123.0' '126.0' '130.0' '143.0' '148.0'
+ '157.0' '158.0' '159.0' '161.0' '170.0' '177.0' '181.0' '184.0' '191.0'
+ '194.0' '199.0' '202.0' '203.0' '204.0' '205.0' '220.0' '225.0' '226.0'
+ '231.0' '242.0' '251.0' '253.0' '254.0' '259.0' '264.0' '269.0' '272.0'
+ '276.0' '284.0' '296.0' '299.0' '308.0' '310.0' '312.0' '315.0' '324.0'
+ '325.0' '327.0' '330.0' '337.0' '343.0' '348.0' '349.0' '356.0' '371.0'
+ '381.0' '384.0' '387.0' '389.0' '418.0' '420.0' '426.0' '428.0' '432.0'
+ '433.0' '436.0' '441.0' '444.0' '448.0' '465.0' '469.0' '472.0' '476.0'
+ '485.0' '492.0' '494.0' '498.0' '499.0' '502.0' '507.0' '508.0' '511.0'
+ '512.0' '523.0' '536.0']","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'card1', 'ProductCD', 'card1', 'ProductCD', 'ProductCD', 'card1', 'ProductCD', 'card1', 'ProductCD', 'card1', 'card1', 'ProductCD', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'card5', 'ProductCD', 'card1', 'C4', 'card1', 'card1', 'card1', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'C10', 'ProductCD', 'card1', 'ProductCD', 'ProductCD', 'card1', 'card5', 'card1', 'card1', 'ProductCD', 'card1', 'card1', 'card1', 'card1', 'card1', 'card1', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'card1', 'ProductCD', 'ProductCD', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'ProductCD', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'card1', 'card1', 'card1', 'card1', 'ProductCD', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'ProductCD', 'card1']",0,,,0
+1,ProductCD,['W'],[],1,0.0,addr1,106.0
+2,ProductCD,['R' 'W'],[],1,0.0,addr1,110.0
+3,ProductCD,['C'],[],1,0.0,addr1,111.0
+4,ProductCD,['H' 'W'],[],1,0.0,addr1,122.0
+5,card1,"[ 1078  1214  1675  1684  1724  1804  1893  1906  1939  2318  2392  2408
+  2443  2538  2616  2646  2744  2755  2795  2835  2884  3056  3171  3178
+  3682  3918  3929  4067  4233  4694  4894  4975  5033  5237  5606  5680
+  5747  6019  6156  6530  6741  6745  7438  7471  7680  7815  7861  7919
+  8049  8140  8320  8691  8695  8965  9364  9479  9692  9803 10027 10057
+ 10112 10246 10486 10616 10776 10790 11465 11839 11862 12065 12577 13149
+ 13307 13481 13484 13551 13810 14631 14694 14766 14868 15066 15205 16070
+ 16075 16216 16312 16314 16325 16547 16560 16659 17269 17400 17480 17555
+ 17566 17933 18227 18249]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,123.0
+6,card1,"[ 1444  1682  1724  1893  2023  2234  2309  2380  2392  2455  2616  2627
+  2755  3605  3682  4030  4063  4436  4490  5220  5396  5561  5567  5938
+  5997  6008  6019  6156  6284  6489  6530  6573  7031  7127  7381  7442
+  7482  7555  7585  7826  7919  7935  8077  8135  8347  8394  8397  8468
+  8578  8695  8868  9175  9500  9537  9803 10112 10493 10616 10856 10961
+ 10989 11207 11233 11319 11635 11653 11704 11799 11849 11862 12577 12581
+ 12598 12695 12932 13241 13481 13620 13749 14128 14694 14842 15063 15066
+ 15841 16075 16188 16255 16560 16566 16659 16748 17055 17396 17568 17635
+ 18122 18268 18375]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,126.0
+7,ProductCD,['C'],[],1,0.0,addr1,130.0
+8,card1,"[ 1012  1839  1939  2071  2114  2261  2315  2377  2455  2543  2755  2772
+  2946  3492  3623  4141  4591  4663  5832  6019  6053  6081  6170  6207
+  6530  6753  6917  6924  7078  7427  7585  7628  7654  7900  7919  7950
+  8320  8727  8732  8760  8802  8908  9166  9500  9803  9818  9992 10112
+ 10265 10493 10616 10804 11465 11534 11686 11822 11862 11987 12449 12577
+ 12686 12731 12741 13295 13395 13528 14025 14079 14179 15063 15066 15372
+ 15399 15678 16075 16085 16115 16338 16560 16659 16717 17020 17363 17409
+ 18249 18350]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,143.0
+9,ProductCD,['C'],[],1,0.0,addr1,148.0
+10,ProductCD,['H' 'W'],[],1,0.0,addr1,157.0
+11,card1,"[ 2455  3917  5703  6530  7508  7919  9128  9786 10854 12577 12868 13266
+ 13602 14079 14131 15066 17363 18227 18269]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,158.0
+12,ProductCD,['W'],[],1,0.0,addr1,159.0
+13,card1,[ 3154  3867  5812  8755  9633  9635 14543],"['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,161.0
+14,ProductCD,['H' 'W'],[],1,0.0,addr1,170.0
+15,card1,"[ 1066  1214  1296  1368  1443  1661  1685  2006  2114  2333  2455  4436
+  5951  6335  6357  7043  7152  7508  7861  7919  8071  8691  8695 10112
+ 10776 11546 11653 12705 12888 13526 13749 14290 15063 15066 15863 16037
+ 17480 18178 18249]",[],1,0.0,addr1,177.0
+16,card1,"[ 1039  1214  1279  1310  1314  1324  1363  1444  1521  1804  1893  2125
+  2263  2392  2803  2884  3126  3451  3651  3742  3920  4085  4141  4515
+  4526  4663  4854  5247  5680  6019  6344  6358  6516  6530  6546  6794
+  7282  7585  7800  7815  7861  7919  8117  8320  8499  8736  9364 10057
+ 10058 10112 10616 10776 11296 11556 11633 11725 12205 12226 12253 12501
+ 12577 13009 13062 13080 13307 13526 14165 14182 14479 14482 14800 14887
+ 15029 15066 15773 15851 16059 16070 16075 16444 16553 16632 16657 16661
+ 16691 16828 16916 16994 17111 17118 17180 17399 17400 17405 17469 17570
+ 17625 17729 17787 18249]",[],1,0.0,addr1,181.0
+17,ProductCD,['H' 'R' 'S' 'W'],[],1,0.0,addr1,184.0
+18,card1,"[ 1333  1765  1893  1929  2377  2616  2746  2772  2803  3056  3094  3985
+  4063  4147  4168  4347  4387  4591  5111  5492  5815  6019  6276  6293
+  6319  6530  6774  6980  7585  7669  7680  7919  8320  8528  8671  9043
+  9152  9323  9364  9500  9839  9869  9904 10049 10057 10106 10661 10948
+ 10960 10967 11157 11640 11690 11870 11900 12002 12403 12501 12544 12570
+ 12577 12603 12686 12705 12807 12839 13108 13136 13207 13307 13530 13597
+ 13663 14244 14357 14410 14479 14540 14636 14842 14885 15007 15066 15111
+ 15205 15280 16075 16132 16255 16560 16632 16659 16774 16923 18132 18268
+ 18335 18385]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,191.0
+19,ProductCD,['W'],[],1,0.0,addr1,194.0
+20,ProductCD,['W'],[],1,0.0,addr1,199.0
+21,ProductCD,['W'],[],1,0.0,addr1,202.0
+22,card1,"[ 1013  2231  2977  3316  3331  4755  4967  4975  5033  5262  6292  6344
+  6394  7114  7585  7919  8287  9561  9803 10057 11339 11796 11839 12469
+ 13465 14556 15668 16075 16927 17188 18132]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,203.0
+23,card5,"['102.0' '117.0' '118.0' '126.0' '129.0' '133.0' '146.0' '150.0' '162.0'
+ '166.0' '190.0' '195.0' '197.0' '198.0' '202.0' '219.0' '224.0' '226.0'
+ '228.0' '229.0']","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'C6', 'C10', 'ProductCD', 'ProductCD']",1,,addr1,204.0
+24,ProductCD,['H' 'R' 'S' 'W'],[],1,0.0,addr1,205.0
+25,card1,"[ 1675  2308  2455  2616  2803  2884  4272  4663  5338  5951  6019  7322
+  7468  7508  7585  7676  7919  8719  9175  9350  9992 10112 10616 11162
+ 13530 14079 14153 14182 15066 15497 16075 16560 16750 17188 18366]",[],1,0.0,addr1,220.0
+26,C4,2.0,"['ProductCD', 'ProductCD']",1,,addr1,225.0
+27,card1,"[ 1444  1724  1770  2114  2772  3821  4231  4822  6019  6170  6197  6209
+  6741  7508  7919  9678  9749  9766  9998 10447 10655 10818 11056 11319
+ 11839 12538 12839 13324 13526 13663 13991 14079 14084 14479 14768 15066
+ 15446 15986 16375 18258]",[],1,0.0,addr1,226.0
+28,card1,"[ 1388  1632  1724  1893  1939  1991  2455  2755  2803  2884  3143  3277
+  3380  3553  3681  4763  5167  5323  5643  5691  6019  6530  6900  7069
+  7585  7919  8135  8406  8900  9500  9749  9803 10486 10740 11207 11319
+ 11671 12037 12100 12348 12469 12695 12932 13073 13307 13370 13455 13481
+ 14039 15027 15773 16003 16075 16560 16659 16751 17556 18268]",[],1,0.0,addr1,231.0
+29,card1,[3154 5583],"['ProductCD', 'ProductCD']",1,,addr1,242.0
+30,card1,"[ 1450  1893  2616  2622  2695  2755  2803  3009  3020  3368  3673  3681
+  3821  4141  4591  5613  6019  6481  6727  6940  7241  7264  7301  7585
+  7591  7919  8320  8431  8528  8613  9500  9992 10104 10763 10859 11157
+ 12108 12308 12469 12577 12686 13111 13422 13500 15066 15239 15947 16255
+ 16800 18268]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,251.0
+31,ProductCD,['R' 'W'],[],1,0.0,addr1,253.0
+32,ProductCD,['R' 'W'],[],1,0.0,addr1,254.0
+33,ProductCD,['W'],[],1,0.0,addr1,259.0
+34,C10,2.0,"['card1', 'ProductCD']",1,,addr1,264.0
+35,ProductCD,['H' 'R' 'W'],[],1,0.0,addr1,269.0
+36,card1,"[ 1214  1310  1444  1675  1724  1745  1877  2157  2249  2255  2336  2377
+  2392  2457  2616  2803  3094  3130  3148  3178  3278  3322  3682  3754
+  3757  3865  4029  4151  4499  4663  4812  5272  5329  5492  5606  5700
+  5938  6019  6021  6053  6063  6170  6405  6525  6530  6554  6584  6816
+  6868  6877  7357  7377  7533  7585  7638  7861  7919  7945  8117  8135
+  8198  8406  8431  8468  8469  8505  8528  8695  8908  9002  9128  9480
+  9500  9537  9561  9749  9803  9992  9998 10112 10349 10353 10399 10486
+ 10505 10616 10836 10859 10908 10948 10960 11149 11204 11233 11319 11388
+ 11465 11538 11815 11919 12469 12476 12501 12544 12570 12577 12581 12679
+ 12686 12723 12725 12766 12839 12902 13307 13716 13749 13940 13960 14077
+ 14426 14431 14651 14661 14743 14769 14827 15066 15111 15427 15845 16075
+ 16255 16560 16630 16632 17003 17188 17383 17727 18132]",[],1,0.0,addr1,272.0
+37,ProductCD,['W'],[],1,0.0,addr1,276.0
+38,ProductCD,['C'],[],1,0.0,addr1,284.0
+39,card1,[ 3113  7291  7348  7493 16579 17407],[],1,0.0,addr1,296.0
+40,card5,"['100.0' '102.0' '117.0' '118.0' '119.0' '126.0' '129.0' '133.0' '137.0'
+ '141.0' '150.0' '162.0' '166.0' '185.0' '190.0' '195.0' '197.0' '198.0'
+ '202.0' '203.0' '219.0' '223.0' '224.0' '226.0' '228.0' '229.0' '236.0']","['ProductCD', 'card1', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'card1', 'card1', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,299.0
+41,card1,"[ 2616  4693  5254  7207  7744  7919  9500 10190 10476 13073 14092 14540
+ 15528 15656 16659]",[],1,0.0,addr1,308.0
+42,card1,"[ 1444  2392  2455  2616  2704  2721  2772  2803  2884  3682  3821  4090
+  4663  4806  4812  5409  5606  6019  6021  6344  6530  7005  7063  7474
+  7508  7585  7861  7919  7970  8088  8320  8378  8880  8908  8989  9002
+  9992 10045 10466 10486 10616 10626 10856 11942 12577 12695 13526 13534
+ 14066 14084 14502 15066 15484 15497 15986 16160 16255 16362 16632 16659
+ 17108 17188 17723 18305]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,310.0
+43,ProductCD,['C'],[],1,0.0,addr1,312.0
+44,card1,"[ 1222  1404  1411  1444  1522  1724  1764  1865  1878  1939  2020  2114
+  2198  2289  2392  2538  2581  2614  2616  2755  2803  2884  2939  3022
+  3090  3093  3191  3326  3343  3682  4105  4272  4396  4806  5033  5273
+  5409  5554  5724  5751  5901  5938  6019  6068  6170  6328  6530  6816
+  6843  7078  7182  7449  7585  7815  7861  7919  7951  8117  8135  8320
+  8335  8414  8821  9400  9480  9485  9500  9749  9803  9992 10057 10075
+ 10112 10447 10486 10488 10616 10856 10989 11159 11378 11820 11893 12172
+ 12190 12494 12577 12686 12891 12945 13108 13143 13152 13530 13808 13917
+ 14189 14290 14502 15020 15066 15108 15205 15265 15428 15497 15592 15847
+ 16075 16232 16560 16582 16630 16659 16661 16994 17262 17705 18227 18249
+ 18283]",[],1,0.0,addr1,315.0
+45,card1,"[ 1650  1724  2455  3821  5613  5938  6542  6564  6590  6739  7826  9500
+ 10616 10811 11207 11218 12577 12932 14259 15815]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,324.0
+46,card1,"[ 1059  1342  1444  1775  1805  1859  1906  2303  2377  2383  2392  2567
+  2581  2616  2855  2884  2939  3004  3056  3603  3605  3682  3821  4030
+  4067  4079  4121  4148  4208  4253  4310  4425  4571  4643  4663  4679
+  4685  4845  4905  5047  5167  5170  5277  5376  5409  5556  5613  5629
+  5655  5660  5700  5901  5938  6019  6062  6204  6366  6530  6580  6592
+  6668  6741  6755  6832  6896  7069  7121  7482  7585  7680  7757  7800
+  7826  7861  7892  7919  8003  8135  8320  8394  8431  8558  8695  8821
+  9072  9166  9263  9499  9500  9515  9645  9803  9891 10023 10112 10186
+ 10267 10278 10486 10565 10594 10616 10856 11207 11233 11371 11388 11520
+ 11575 11815 11862 11919 11972 12037 12039 12116 12253 12308 12364 12469
+ 12501 12538 12544 12567 12577 12590 12615 12668 12695 12747 12839 12883
+ 12932 13052 13095 13178 13307 13481 13825 13833 13906 14079 14098 14102
+ 14278 14382 14415 14574 14627 14858 15066 15184 15205 15359 15511 15773
+ 15986 16034 16053 16075 16116 16131 16163 16188 16189 16379 16437 16560
+ 16659 16809 16873 16914 17020 17055 17318 17374 17404 17422 17635 17684
+ 17729 17872 17939 18072 18103 18117 18154 18211 18249 18281 18292 18350]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,325.0
+47,card1,"[ 1214  1444  1570  1595  1724  1893  1919  2114  2162  2392  2538  2569
+  2616  2646  2782  3681  4067  4472  4806  4908  5033  5248  5719  5902
+  6065  6170  6517  7670  7815  7861  7919  8117  8414  9678  9803  9808
+ 10057 10454 10486 10616 10856 10989 11167 11660 11717 11783 11815 12293
+ 12502 12692 12784 12802 12850 13398 14042 14479 14842 15063 15066 15757
+ 16315 16476 16554 16661 17188 17409 17910 18227 18268 18343]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,327.0
+48,card1,"[ 1139  1214  1292  1333  1675  1874  1939  1974  2039  2151  2263  2377
+  2392  2561  2616  2627  2646  2898  3278  3516  3579  3602  3698  3821
+  3895  4089  4115  4121  4425  4436  4911  5017  5033  5167  5168  5409
+  5524  5606  5645  5938  6016  6019  6054  6344  6441  6963  7155  7161
+  7225  7544  7585  7605  7619  7638  7815  7826  7861  7919  7974  8135
+  8174  8233  8394  8432  8868  8908  8972  9013  9332  9500  9749  9787
+  9803 10019 10112 10127 10172 10370 10486 10495 10616 10680 10925 10930
+ 11050 11106 11207 11218 11233 11331 11343 11538 11555 11641 11704 11815
+ 11849 11919 12055 12075 12116 12308 12345 12396 12544 12577 12582 12695
+ 12866 12932 13007 13052 13095 14028 14079 14128 14259 14573 14605 14622
+ 15063 15066 15084 15333 15436 15627 15651 15773 15775 16075 16234 16255
+ 16314 16380 16485 16659 16979 17043 17055 17286 17300 17458 17482 17517
+ 17577 17598 17649 17729 18027 18047 18227 18249 18268 18375]",[],1,0.0,addr1,330.0
+49,card1,"[ 1409  1724  1893  1974  2039  2263  2377  2416  2646  2803  3331  3682
+  3698  3821  4436  4924  4975  5033  5606  5690  5901  5938  6019  6194
+  6481  6525  6530  6741  6978  7585  7658  7676  7919  8024  8320  8468
+  8556  8695  8880  9206  9480  9505  9749  9803  9821  9921 10102 10112
+ 10406 10471 10486 10501 10582 10889 10960 10989 11106 11282 11565 11710
+ 12116 12203 12318 12361 12544 12581 13248 13366 13734 13786 13926 14003
+ 14037 14165 14318 14657 15021 15063 15066 15397 15466 15521 15592 16070
+ 16085 16255 16326 16435 16630 16659 17249 17286 17295 17491 17669 17962
+ 18132 18268]",[],1,0.0,addr1,337.0
+50,card1,[ 2903  3790  5986  6019  8320  8718 13844 15066],[],1,0.0,addr1,343.0
+51,ProductCD,['H'],[],1,0.0,addr1,348.0
+52,ProductCD,['H'],[],1,0.0,addr1,349.0
+53,ProductCD,['R'],[],1,0.0,addr1,356.0
+54,ProductCD,['C'],[],1,0.0,addr1,371.0
+55,ProductCD,['W'],[],1,0.0,addr1,381.0
+56,card1,"[ 1678  4141  6019  6369  6439  6832  7835  7919  8109  9479 13160 15066
+ 15133 15333 15528 16075 16326 16691 17055 18238]",[],1,0.0,addr1,384.0
+57,card1,"[ 1807  1893  2392  2475  2538  2595  2803  2884  3178  3278  4011  4141
+  4591  5097  5374  5700  6019  6156  6174  6727  7483  7663  7664  7826
+  7919  8199  8286  8320  8431  8434  8528  8937  9022  9043  9532  9803
+  9992 10112 10486 10616 11815 12106 12686 12694 12851 13960 13992 14080
+ 14149 14186 14590 14637 15066 15111 16075 16560 16873 17188 18018 18227
+ 18249 18306]",[],1,0.0,addr1,387.0
+58,ProductCD,['C'],[],1,0.0,addr1,389.0
+59,ProductCD,['R'],[],1,0.0,addr1,418.0
+60,card1,"[ 2371  3278  4067  4436  5011  6530  6571  6855  7508  7585  7676  7919
+  8874  9020  9350  9375 10165 10616 11581 11839 12571 13481 14525 16075
+ 16521 16659 17489 17666 17714 18268]",[],1,0.0,addr1,420.0
+61,ProductCD,['R'],[],1,0.0,addr1,426.0
+62,ProductCD,['S' 'W'],[],1,0.0,addr1,428.0
+63,ProductCD,['R'],[],1,0.0,addr1,432.0
+64,card1,"[ 1893  1939  2455  2465  2538  2581  2965  3278  3368  3536  3987  4005
+  4357  4978  5606  5741  6481  6530  6816  6832  6877  7381  7669  7919
+  7971  8320  8528  9122  9500  9803  9992 10958 11157 11235 11333 11388
+ 11596 11623 11919 12211 12382 12577 12581 12686 13307 13603 13944 14193
+ 14239 14755 15066 15111 15484 15592 15642 16070 16085 16276 16672 16865
+ 16972 17720]",[],1,0.0,addr1,433.0
+65,ProductCD,['H' 'R' 'W'],[],1,0.0,addr1,436.0
+66,card1,"[ 1476  1563  1675  1874  1893  1922  1939  2270  2377  2392  2616  2803
+  3278  3288  3682  3786  3821  4053  4074  4141  4161  4425  4436  4490
+  4527  4663  4764  5033  5051  5146  5211  5645  5700  5957  6019  6068
+  6207  6457  6580  6609  6741  6872  6951  7207  7234  7511  7585  7663
+  7680  7861  7919  8320  8406  8691  8695  8732  8801  8830  8908  8987
+  9112  9500  9559  9749  9885  9992 10057 10112 10254 10258 10471 10486
+ 10532 10613 10616 10754 10795 10856 10888 10960 10989 11157 11905 12063
+ 12148 12192 12211 12467 12501 12544 12932 13307 13511 13780 14065 14118
+ 14216 14649 14849 14902 14960 15011 15063 15066 15205 15385 15592 15715
+ 15813 15986 15998 16188 16255 16279 16659 16923 16960 17009 17336 17400
+ 17872 18054 18132 18249]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionAmt', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'TransactionDT', 'ProductCD', 'ProductCD', 'ProductCD', 'C2', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,441.0
+67,ProductCD,['H' 'W'],[],1,0.0,addr1,444.0
+68,ProductCD,['H' 'R' 'S' 'W'],[],1,0.0,addr1,448.0
+69,ProductCD,['C'],[],1,1.0,addr1,465.0
+70,card1,"[ 1275  2671  2927  6021  7089  7508  8453  9316  9749  9771 10267 10740
+ 12321 12839 13497 15007 15063 15765 16075 16659 17175 17480 17540 18268]",[],1,0.0,addr1,469.0
+71,card1,"[ 1893  2150  2170  2383  3310  3928  4208  4219  4436  4663  5469  5901
+  5911  5997  6019  6053  6128  6820  7069  7585  7835  7919  8106  9749
+ 10112 10616 11477 11690 11862 12973 13155 13220 13283 13307 13443 13481
+ 14182 14349 14517 14762 15066 15359 15406 15773 16070 16075 16473 16659
+ 16922 17055 17223 17321 17868 18215 18268]","['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,472.0
+72,card1,"[ 1208  1388  1555  1744  2039  2250  2616  2755  2803  3040  3178  3651
+  3682  4121  4436  4663  4702  5738  6053  6530  6877  6951  7292  7585
+  7690  7861  7919  7969  8278  8320  8349  8431  8598  8691  9303  9456
+  9480  9711 10011 10035 10532 10616 10748 10749 10908 11207 11690 11904
+ 12544 12577 12581 12686 12932 13360 13414 13470 13833 14065 14079 14610
+ 14627 14649 15066 15385 15842 16070 16132 16314 16560 16883 18132 18195
+ 18227 18246]",[],1,0.0,addr1,476.0
+73,card1,"[ 1078  1313  1642  1684  1953  2006  2307  2616  2807  3326  3821  4703
+  4948  5305  5606  6265  6273  6692  7153  7272  7403  7653  7680  7703
+  7919  7987  8414  8842  9135  9480  9708  9749  9803  9889 10112 10244
+ 10776 10785 10854 10883 10895 11148 11162 11727 11927 13071 13307 14290
+ 14367 14495 14509 14641 15066 15314 15399 15596 15597 15986 16070 16075
+ 17188 17207 17480 17729]",[],1,0.0,addr1,485.0
+74,card1,[ 2102  2616  3638  6621  9050 12526 13809 14128 15006 16075 16521 17136],[],1,0.0,addr1,492.0
+75,ProductCD,['H' 'R' 'W'],"['ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,494.0
+76,card1,"[ 1296  1701  1756  1761  1939  1955  2162  2392  2772  2930  3681  4937
+  6019  6530  6933  6952  7703  7919  8320  8613  8691  8695  9537  9992
+ 10476 10486 10616 10776 11180 12577 12686 13623 14631 15066 15111 15254
+ 16075 16770 18373]",[],1,0.0,addr1,498.0
+77,ProductCD,['W'],[],1,0.0,addr1,499.0
+78,ProductCD,['H' 'W'],[],1,0.0,addr1,502.0
+79,ProductCD,['C'],[],1,0.0,addr1,507.0
+80,ProductCD,['C'],[],1,0.0,addr1,508.0
+81,ProductCD,['C'],[],1,0.0,addr1,511.0
+82,card1,"[ 1078  1359  1444  1577  1603  1724  2377  2392  2742  2753  2884  3055
+  3278  3570  3639  4067  4211  4272  4346  4425  5700  5822  5901  5978
+  6053  6741  6906  7322  7458  7554  7585  7610  7676  7970  8695  8880
+  8906  9350  9424 10267 10349 10486 10489 10616 11116 11162 11839 11925
+ 12538 12581 12789 12797 12839 13526 13979 13982 14479 15597 16075 16560
+ 16568 16659 16858 16873 17188 17489 18151]",[],1,0.0,addr1,512.0
+83,ProductCD,['C'],[],1,0.0,addr1,523.0
+84,card1,[4377 5599 5968 9849],"['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",1,,addr1,536.0
+85,ProductCD,['W'],[],2,0.0,card1,1078
+86,ProductCD,['W'],[],2,0.0,card1,1214
+87,ProductCD,['W'],[],2,0.0,card1,1675
+88,ProductCD,['W'],[],2,0.0,card1,1684
+89,ProductCD,['S'],[],2,0.0,card1,1724
+90,ProductCD,['W'],[],2,0.0,card1,1804
+91,ProductCD,['W'],[],2,0.0,card1,1893
+92,ProductCD,['W'],[],2,0.0,card1,1906
+93,ProductCD,['W'],[],2,0.0,card1,1939
+94,ProductCD,['R'],[],2,0.0,card1,2318
+95,ProductCD,['W'],[],2,0.0,card1,2392
+96,ProductCD,['W'],[],2,0.0,card1,2408
+97,ProductCD,['W'],[],2,0.0,card1,2443
+98,ProductCD,['W'],[],2,0.0,card1,2538
+99,ProductCD,['R'],[],2,0.0,card1,2616
+100,ProductCD,['W'],[],2,0.0,card1,2646
+101,ProductCD,['W'],[],2,0.0,card1,2744
+102,ProductCD,['W'],[],2,0.0,card1,2755
+103,ProductCD,['S'],[],2,0.0,card1,2795
+104,ProductCD,['W'],[],2,0.0,card1,2835
+105,ProductCD,['W'],[],2,0.0,card1,2884
+106,ProductCD,['W'],[],2,0.0,card1,3056
+107,ProductCD,['W'],[],2,0.0,card1,3171
+108,ProductCD,['W'],[],2,0.0,card1,3178
+109,ProductCD,['W'],[],2,0.0,card1,3682
+110,ProductCD,['W'],[],2,0.0,card1,3918
+111,ProductCD,['W'],[],2,0.0,card1,3929
+112,ProductCD,['W'],[],2,0.0,card1,4067
+113,ProductCD,['W'],[],2,0.0,card1,4233
+114,ProductCD,['S'],[],2,0.0,card1,4694
+115,ProductCD,['W'],[],2,0.0,card1,4894
+116,ProductCD,['W'],[],2,0.0,card1,4975
+117,ProductCD,['W'],[],2,0.0,card1,5033
+118,ProductCD,['W'],[],2,0.0,card1,5237
+119,ProductCD,['W'],[],2,0.0,card1,5606
+120,ProductCD,['W'],[],2,0.0,card1,5680
+121,ProductCD,['W'],[],2,0.0,card1,5747
+122,ProductCD,['H' 'R' 'W'],[],2,0.0,card1,6019
+123,ProductCD,['W'],[],2,0.0,card1,6156
+124,ProductCD,['W'],[],2,0.0,card1,6530
+125,ProductCD,['W'],[],2,0.0,card1,6741
+126,ProductCD,['W'],[],2,0.0,card1,6745
+127,ProductCD,['W'],[],2,1.0,card1,7438
+128,ProductCD,['H'],[],2,0.0,card1,7471
+129,ProductCD,['W'],[],2,0.0,card1,7680
+130,ProductCD,['W'],[],2,0.0,card1,7815
+131,ProductCD,['W'],[],2,0.0,card1,7861
+132,ProductCD,['W'],[],2,0.0,card1,7919
+133,ProductCD,['W'],[],2,0.0,card1,8049
+134,ProductCD,['W'],[],2,0.0,card1,8140
+135,ProductCD,['W'],[],2,0.0,card1,8320
+136,ProductCD,['W'],[],2,0.0,card1,8691
+137,ProductCD,['S'],[],2,0.0,card1,8695
+138,ProductCD,['W'],[],2,0.0,card1,8965
+139,ProductCD,['W'],[],2,0.0,card1,9364
+140,ProductCD,['W'],[],2,0.0,card1,9479
+141,ProductCD,['W'],[],2,0.0,card1,9692
+142,ProductCD,['R'],[],2,0.0,card1,9803
+143,ProductCD,['W'],[],2,0.0,card1,10027
+144,ProductCD,['S' 'W'],[],2,0.0,card1,10057
+145,ProductCD,['W'],[],2,0.0,card1,10112
+146,ProductCD,['W'],[],2,0.0,card1,10246
+147,ProductCD,['H'],[],2,0.0,card1,10486
+148,ProductCD,['W'],[],2,0.0,card1,10616
+149,ProductCD,['W'],[],2,0.0,card1,10776
+150,ProductCD,['W'],[],2,0.0,card1,10790
+151,ProductCD,['W'],[],2,0.0,card1,11465
+152,ProductCD,['W'],[],2,0.0,card1,11839
+153,ProductCD,['W'],[],2,0.0,card1,11862
+154,ProductCD,['W'],[],2,0.0,card1,12065
+155,ProductCD,['W'],[],2,0.0,card1,12577
+156,ProductCD,['W'],[],2,0.0,card1,13149
+157,ProductCD,['R'],[],2,0.0,card1,13307
+158,ProductCD,['W'],[],2,0.0,card1,13481
+159,ProductCD,['W'],[],2,1.0,card1,13484
+160,ProductCD,['W'],[],2,0.0,card1,13551
+161,ProductCD,['H'],[],2,0.0,card1,13810
+162,ProductCD,['W'],[],2,0.0,card1,14631
+163,ProductCD,['W'],[],2,0.0,card1,14694
+164,ProductCD,['W'],[],2,0.0,card1,14766
+165,ProductCD,['W'],[],2,0.0,card1,14868
+166,ProductCD,['W'],[],2,0.0,card1,15066
+167,ProductCD,['W'],[],2,0.0,card1,15205
+168,ProductCD,['W'],[],2,0.0,card1,16070
+169,ProductCD,['H' 'R'],[],2,0.0,card1,16075
+170,ProductCD,['W'],[],2,0.0,card1,16216
+171,ProductCD,['W'],[],2,0.0,card1,16312
+172,ProductCD,['W'],[],2,0.0,card1,16314
+173,ProductCD,['R'],[],2,0.0,card1,16325
+174,ProductCD,['W'],[],2,0.0,card1,16547
+175,ProductCD,['W'],[],2,0.0,card1,16560
+176,ProductCD,['R' 'W'],[],2,0.0,card1,16659
+177,ProductCD,['W'],[],2,0.0,card1,17269
+178,ProductCD,['W'],[],2,0.0,card1,17400
+179,ProductCD,['W'],[],2,0.0,card1,17480
+180,ProductCD,['W'],[],2,0.0,card1,17555
+181,ProductCD,['W'],[],2,0.0,card1,17566
+182,ProductCD,['W'],[],2,0.0,card1,17933
+183,ProductCD,['W'],[],2,0.0,card1,18227
+184,ProductCD,['W'],[],2,0.0,card1,18249
+185,ProductCD,['W'],[],2,0.0,card1,1444
+186,ProductCD,['R' 'W'],[],2,0.0,card1,1682
+187,ProductCD,['R' 'W'],[],2,0.0,card1,1724
+188,ProductCD,['R' 'W'],[],2,0.0,card1,1893
+189,ProductCD,['H'],[],2,0.0,card1,2023
+190,ProductCD,['W'],[],2,0.0,card1,2234
+191,ProductCD,['W'],[],2,0.0,card1,2309
+192,ProductCD,['R'],[],2,0.0,card1,2380
+193,ProductCD,['W'],[],2,0.0,card1,2392
+194,ProductCD,['H'],[],2,0.0,card1,2455
+195,ProductCD,['R' 'W'],[],2,0.0,card1,2616
+196,ProductCD,['W'],[],2,0.0,card1,2627
+197,ProductCD,['W'],[],2,0.0,card1,2755
+198,ProductCD,['W'],[],2,0.0,card1,3605
+199,ProductCD,['H'],[],2,0.0,card1,3682
+200,ProductCD,['H' 'W'],[],2,0.0,card1,4030
+201,ProductCD,['W'],[],2,0.0,card1,4063
+202,ProductCD,['S'],[],2,0.0,card1,4436
+203,ProductCD,['W'],[],2,0.0,card1,4490
+204,ProductCD,['R'],[],2,0.0,card1,5220
+205,ProductCD,['W'],[],2,0.0,card1,5396
+206,ProductCD,['S'],[],2,0.0,card1,5561
+207,ProductCD,['R'],[],2,0.0,card1,5567
+208,ProductCD,['R'],[],2,0.0,card1,5938
+209,ProductCD,['W'],[],2,1.0,card1,5997
+210,ProductCD,['W'],[],2,0.0,card1,6008
+211,ProductCD,['H' 'R'],[],2,0.0,card1,6019
+212,ProductCD,['W'],[],2,0.0,card1,6156
+213,ProductCD,['W'],[],2,0.0,card1,6284
+214,ProductCD,['W'],[],2,0.0,card1,6489
+215,ProductCD,['W'],[],2,0.0,card1,6530
+216,ProductCD,['R'],[],2,0.0,card1,6573
+217,ProductCD,['W'],[],2,0.0,card1,7031
+218,ProductCD,['W'],[],2,0.0,card1,7127
+219,ProductCD,['H' 'W'],[],2,0.0,card1,7381
+220,ProductCD,['W'],[],2,0.0,card1,7442
+221,ProductCD,['H'],[],2,0.0,card1,7482
+222,ProductCD,['R'],[],2,0.0,card1,7555
+223,ProductCD,['W'],[],2,0.0,card1,7585
+224,ProductCD,['W'],[],2,0.0,card1,7826
+225,ProductCD,['W'],[],2,0.0,card1,7919
+226,ProductCD,['R'],[],2,0.0,card1,7935
+227,ProductCD,['W'],[],2,0.0,card1,8077
+228,ProductCD,['W'],[],2,0.0,card1,8135
+229,ProductCD,['W'],[],2,0.0,card1,8347
+230,ProductCD,['W'],[],2,0.0,card1,8394
+231,ProductCD,['W'],[],2,0.0,card1,8397
+232,ProductCD,['W'],[],2,0.0,card1,8468
+233,ProductCD,['W'],[],2,0.0,card1,8578
+234,ProductCD,['W'],[],2,0.0,card1,8695
+235,ProductCD,['W'],[],2,0.0,card1,8868
+236,TransactionDT,7078256.0,"['ProductCD', 'TransactionDT']",2,,card1,9175
+237,ProductCD,['W'],[],2,0.0,card1,9500
+238,ProductCD,['R' 'W'],[],2,0.0,card1,9537
+239,ProductCD,['R'],[],2,0.0,card1,9803
+240,ProductCD,['W'],[],2,0.0,card1,10112
+241,ProductCD,['W'],[],2,0.0,card1,10493
+242,ProductCD,['S' 'W'],[],2,0.0,card1,10616
+243,ProductCD,['W'],[],2,0.0,card1,10856
+244,ProductCD,['R'],[],2,0.0,card1,10961
+245,ProductCD,['W'],[],2,0.0,card1,10989
+246,ProductCD,['H' 'R' 'S' 'W'],[],2,0.0,card1,11207
+247,ProductCD,['W'],[],2,0.0,card1,11233
+248,ProductCD,['H'],[],2,0.0,card1,11319
+249,ProductCD,['W'],[],2,0.0,card1,11635
+250,ProductCD,['W'],[],2,0.0,card1,11653
+251,ProductCD,['S'],[],2,0.0,card1,11704
+252,ProductCD,['W'],[],2,0.0,card1,11799
+253,ProductCD,['H'],[],2,0.0,card1,11849
+254,ProductCD,['W'],[],2,0.0,card1,11862
+255,ProductCD,['W'],[],2,0.0,card1,12577
+256,ProductCD,['W'],[],2,0.0,card1,12581
+257,ProductCD,['W'],[],2,0.0,card1,12598
+258,ProductCD,['H' 'W'],[],2,0.0,card1,12695
+259,ProductCD,['W'],[],2,0.0,card1,12932
+260,ProductCD,['W'],[],2,0.0,card1,13241
+261,ProductCD,['W'],[],2,0.0,card1,13481
+262,ProductCD,['R'],[],2,0.0,card1,13620
+263,ProductCD,['W'],[],2,0.0,card1,13749
+264,ProductCD,['H'],[],2,0.0,card1,14128
+265,ProductCD,['H'],[],2,0.0,card1,14694
+266,ProductCD,['W'],[],2,0.0,card1,14842
+267,ProductCD,['R' 'W'],[],2,0.0,card1,15063
+268,ProductCD,['W'],[],2,0.0,card1,15066
+269,ProductCD,['R'],[],2,0.0,card1,15841
+270,ProductCD,['R' 'W'],[],2,0.0,card1,16075
+271,ProductCD,['W'],[],2,0.0,card1,16188
+272,ProductCD,['W'],[],2,0.0,card1,16255
+273,ProductCD,['W'],[],2,0.0,card1,16560
+274,ProductCD,['W'],[],2,0.0,card1,16566
+275,ProductCD,['R'],[],2,0.0,card1,16659
+276,ProductCD,['W'],[],2,0.0,card1,16748
+277,ProductCD,['H' 'W'],[],2,0.0,card1,17055
+278,ProductCD,['R'],[],2,0.0,card1,17396
+279,ProductCD,['W'],[],2,1.0,card1,17568
+280,ProductCD,['W'],[],2,0.0,card1,17635
+281,ProductCD,['W'],[],2,0.0,card1,18122
+282,ProductCD,['R'],[],2,0.0,card1,18268
+283,ProductCD,['W'],[],2,0.0,card1,18375
+284,ProductCD,['H'],[],2,0.0,card1,1012
+285,ProductCD,['W'],[],2,0.0,card1,1839
+286,ProductCD,['W'],[],2,0.0,card1,1939
+287,ProductCD,['W'],[],2,0.0,card1,2071
+288,ProductCD,['W'],[],2,0.0,card1,2114
+289,ProductCD,['W'],[],2,0.0,card1,2261
+290,ProductCD,['W'],[],2,0.0,card1,2315
+291,ProductCD,['W'],[],2,0.0,card1,2377
+292,ProductCD,['W'],[],2,0.0,card1,2455
+293,ProductCD,['W'],[],2,0.0,card1,2543
+294,ProductCD,['W'],[],2,0.0,card1,2755
+295,ProductCD,['R' 'W'],[],2,0.0,card1,2772
+296,ProductCD,['W'],[],2,0.0,card1,2946
+297,ProductCD,['W'],[],2,0.0,card1,3492
+298,ProductCD,['W'],[],2,0.0,card1,3623
+299,ProductCD,['W'],[],2,0.0,card1,4141
+300,ProductCD,['W'],[],2,0.0,card1,4591
+301,ProductCD,['W'],[],2,0.0,card1,4663
+302,ProductCD,['W'],[],2,1.0,card1,5832
+303,ProductCD,['W'],[],2,0.0,card1,6019
+304,ProductCD,['W'],[],2,1.0,card1,6053
+305,ProductCD,['W'],[],2,0.0,card1,6081
+306,ProductCD,['W'],[],2,1.0,card1,6170
+307,ProductCD,['W'],[],2,0.0,card1,6207
+308,ProductCD,['W'],[],2,0.0,card1,6530
+309,ProductCD,['W'],[],2,0.0,card1,6753
+310,ProductCD,['W'],[],2,0.0,card1,6917
+311,ProductCD,['R'],[],2,0.0,card1,6924
+312,ProductCD,['W'],[],2,0.0,card1,7078
+313,ProductCD,['W'],[],2,0.0,card1,7427
+314,ProductCD,['W'],[],2,0.0,card1,7585
+315,ProductCD,['W'],[],2,0.0,card1,7628
+316,ProductCD,['W'],[],2,0.0,card1,7654
+317,ProductCD,['W'],[],2,0.0,card1,7900
+318,ProductCD,['W'],[],2,0.0,card1,7919
+319,ProductCD,['W'],[],2,0.0,card1,7950
+320,ProductCD,['W'],[],2,0.0,card1,8320
+321,ProductCD,['W'],[],2,0.0,card1,8727
+322,ProductCD,['W'],[],2,0.0,card1,8732
+323,ProductCD,['W'],[],2,0.0,card1,8760
+324,ProductCD,['W'],[],2,0.0,card1,8802
+325,ProductCD,['R'],[],2,0.0,card1,8908
+326,ProductCD,['W'],[],2,0.0,card1,9166
+327,ProductCD,['W'],[],2,0.0,card1,9500
+328,ProductCD,['H'],[],2,0.0,card1,9803
+329,ProductCD,['W'],[],2,0.0,card1,9818
+330,ProductCD,['W'],[],2,0.0,card1,9992
+331,ProductCD,['W'],[],2,0.0,card1,10112
+332,ProductCD,['W'],[],2,0.0,card1,10265
+333,ProductCD,['W'],[],2,0.0,card1,10493
+334,ProductCD,['W'],[],2,0.0,card1,10616
+335,ProductCD,['W'],[],2,0.0,card1,10804
+336,ProductCD,['W'],[],2,0.0,card1,11465
+337,ProductCD,['W'],[],2,0.0,card1,11534
+338,ProductCD,['W'],[],2,0.0,card1,11686
+339,ProductCD,['W'],[],2,0.0,card1,11822
+340,ProductCD,['R'],[],2,0.0,card1,11862
+341,ProductCD,['H'],[],2,1.0,card1,11987
+342,ProductCD,['W'],[],2,0.0,card1,12449
+343,ProductCD,['W'],[],2,0.0,card1,12577
+344,ProductCD,['W'],[],2,0.0,card1,12686
+345,ProductCD,['W'],[],2,0.0,card1,12731
+346,ProductCD,['W'],[],2,0.0,card1,12741
+347,ProductCD,['W'],[],2,0.0,card1,13295
+348,ProductCD,['W'],[],2,0.0,card1,13395
+349,ProductCD,['W'],[],2,0.0,card1,13528
+350,ProductCD,['W'],[],2,0.0,card1,14025
+351,ProductCD,['W'],[],2,0.0,card1,14079
+352,ProductCD,['W'],[],2,0.0,card1,14179
+353,ProductCD,['W'],[],2,0.0,card1,15063
+354,ProductCD,['W'],[],2,0.0,card1,15066
+355,ProductCD,['W'],[],2,0.0,card1,15372
+356,ProductCD,['W'],[],2,0.0,card1,15399
+357,ProductCD,['W'],[],2,0.0,card1,15678
+358,ProductCD,['W'],[],2,0.0,card1,16075
+359,ProductCD,['W'],[],2,0.0,card1,16085
+360,ProductCD,['W'],[],2,0.0,card1,16115
+361,ProductCD,['R' 'W'],[],2,0.0,card1,16338
+362,ProductCD,['W'],[],2,0.0,card1,16560
+363,ProductCD,['H' 'W'],[],2,0.0,card1,16659
+364,ProductCD,['W'],[],2,0.0,card1,16717
+365,ProductCD,['W'],[],2,0.0,card1,17020
+366,ProductCD,['W'],[],2,0.0,card1,17363
+367,ProductCD,['W'],[],2,0.0,card1,17409
+368,ProductCD,['W'],[],2,0.0,card1,18249
+369,ProductCD,['W'],[],2,0.0,card1,18350
+370,ProductCD,['W'],[],2,1.0,card1,2455
+371,ProductCD,['W'],[],2,0.0,card1,3917
+372,ProductCD,['W'],[],2,0.0,card1,5703
+373,ProductCD,['W'],[],2,0.0,card1,6530
+374,ProductCD,['W'],[],2,0.0,card1,7508
+375,ProductCD,['W'],[],2,0.0,card1,7919
+376,ProductCD,['W'],[],2,0.0,card1,9128
+377,ProductCD,['W'],[],2,0.0,card1,9786
+378,ProductCD,['W'],[],2,0.0,card1,10854
+379,ProductCD,['W'],[],2,0.0,card1,12577
+380,ProductCD,['W'],[],2,0.0,card1,12868
+381,ProductCD,['W'],[],2,0.0,card1,13266
+382,ProductCD,['W'],[],2,0.0,card1,13602
+383,ProductCD,['W'],[],2,0.0,card1,14079
+384,ProductCD,['W'],[],2,0.0,card1,14131
+385,ProductCD,['H'],[],2,0.0,card1,15066
+386,ProductCD,['W'],[],2,1.0,card1,17363
+387,ProductCD,['W'],[],2,0.0,card1,18227
+388,ProductCD,['W'],[],2,0.0,card1,18269
+389,ProductCD,['C'],[],2,0.0,card1,3154
+390,ProductCD,['C'],[],2,1.0,card1,3867
+391,ProductCD,['C'],[],2,1.0,card1,5812
+392,ProductCD,['C'],[],2,0.0,card1,8755
+393,ProductCD,['C'],[],2,1.0,card1,9633
+394,ProductCD,['C'],[],2,0.0,card1,9635
+395,ProductCD,['C'],[],2,0.0,card1,14543
+396,ProductCD,['W'],[],2,0.0,card1,1333
+397,ProductCD,['W'],[],2,0.0,card1,1765
+398,ProductCD,['W'],[],2,0.0,card1,1893
+399,ProductCD,['W'],[],2,0.0,card1,1929
+400,ProductCD,['W'],[],2,0.0,card1,2377
+401,ProductCD,['R' 'W'],[],2,0.0,card1,2616
+402,ProductCD,['W'],[],2,0.0,card1,2746
+403,ProductCD,['W'],[],2,0.0,card1,2772
+404,ProductCD,['W'],[],2,0.0,card1,2803
+405,ProductCD,['W'],[],2,0.0,card1,3056
+406,ProductCD,['W'],[],2,0.0,card1,3094
+407,ProductCD,['W'],[],2,0.0,card1,3985
+408,ProductCD,['W'],[],2,0.0,card1,4063
+409,ProductCD,['W'],[],2,0.0,card1,4147
+410,ProductCD,['W'],[],2,0.0,card1,4168
+411,ProductCD,['W'],[],2,1.0,card1,4347
+412,ProductCD,['W'],[],2,0.0,card1,4387
+413,ProductCD,['W'],[],2,0.0,card1,4591
+414,ProductCD,['R'],[],2,0.0,card1,5111
+415,ProductCD,['W'],[],2,0.0,card1,5492
+416,ProductCD,['W'],[],2,0.0,card1,5815
+417,ProductCD,['R' 'W'],[],2,0.0,card1,6019
+418,ProductCD,['W'],[],2,0.0,card1,6276
+419,ProductCD,['R'],[],2,0.0,card1,6293
+420,ProductCD,['W'],[],2,0.0,card1,6319
+421,ProductCD,['W'],[],2,0.0,card1,6530
+422,ProductCD,['W'],[],2,0.0,card1,6774
+423,ProductCD,['W'],[],2,0.0,card1,6980
+424,ProductCD,['H' 'W'],[],2,0.0,card1,7585
+425,ProductCD,['W'],[],2,0.0,card1,7669
+426,ProductCD,['W'],[],2,0.0,card1,7680
+427,ProductCD,['W'],[],2,0.0,card1,7919
+428,ProductCD,['W'],[],2,0.0,card1,8320
+429,ProductCD,['W'],[],2,0.0,card1,8528
+430,ProductCD,['W'],[],2,0.0,card1,8671
+431,ProductCD,['W'],[],2,1.0,card1,9043
+432,ProductCD,['R'],[],2,0.0,card1,9152
+433,ProductCD,['W'],[],2,0.0,card1,9323
+434,ProductCD,['W'],[],2,0.0,card1,9364
+435,ProductCD,['W'],[],2,0.0,card1,9500
+436,ProductCD,['W'],[],2,0.0,card1,9839
+437,ProductCD,['W'],[],2,0.0,card1,9869
+438,ProductCD,['R'],[],2,0.0,card1,9904
+439,ProductCD,['W'],[],2,0.0,card1,10049
+440,ProductCD,['W'],[],2,0.0,card1,10057
+441,ProductCD,['W'],[],2,0.0,card1,10106
+442,ProductCD,['W'],[],2,0.0,card1,10661
+443,ProductCD,['W'],[],2,0.0,card1,10948
+444,ProductCD,['W'],[],2,0.0,card1,10960
+445,ProductCD,['W'],[],2,0.0,card1,10967
+446,ProductCD,['R' 'W'],[],2,0.0,card1,11157
+447,ProductCD,['W'],[],2,0.0,card1,11640
+448,ProductCD,['W'],[],2,0.0,card1,11690
+449,ProductCD,['R' 'W'],[],2,0.0,card1,11870
+450,ProductCD,['W'],[],2,0.0,card1,11900
+451,ProductCD,['W'],[],2,0.0,card1,12002
+452,ProductCD,['W'],[],2,0.0,card1,12403
+453,ProductCD,['W'],[],2,0.0,card1,12501
+454,ProductCD,['W'],[],2,0.0,card1,12544
+455,ProductCD,['W'],[],2,0.0,card1,12570
+456,ProductCD,['W'],[],2,0.0,card1,12577
+457,ProductCD,['W'],[],2,0.0,card1,12603
+458,ProductCD,['W'],[],2,0.0,card1,12686
+459,ProductCD,['W'],[],2,0.0,card1,12705
+460,ProductCD,['R'],[],2,0.0,card1,12807
+461,ProductCD,['W'],[],2,0.0,card1,12839
+462,TransactionDT,1132054.0,"['TransactionDT', 'ProductCD']",2,,card1,13108
+463,ProductCD,['R'],[],2,0.0,card1,13136
+464,ProductCD,['W'],[],2,0.0,card1,13207
+465,ProductCD,['W'],[],2,0.0,card1,13307
+466,ProductCD,['W'],[],2,0.0,card1,13530
+467,ProductCD,['W'],[],2,0.0,card1,13597
+468,ProductCD,['W'],[],2,0.0,card1,13663
+469,ProductCD,['W'],[],2,0.0,card1,14244
+470,ProductCD,['W'],[],2,0.0,card1,14357
+471,ProductCD,['W'],[],2,0.0,card1,14410
+472,ProductCD,['W'],[],2,0.0,card1,14479
+473,ProductCD,['W'],[],2,0.0,card1,14540
+474,ProductCD,['W'],[],2,0.0,card1,14636
+475,ProductCD,['W'],[],2,0.0,card1,14842
+476,ProductCD,['W'],[],2,0.0,card1,14885
+477,ProductCD,['W'],[],2,0.0,card1,15007
+478,ProductCD,['W'],[],2,0.0,card1,15066
+479,ProductCD,['W'],[],2,0.0,card1,15111
+480,ProductCD,['W'],[],2,0.0,card1,15205
+481,ProductCD,['W'],[],2,0.0,card1,15280
+482,ProductCD,['H'],[],2,1.0,card1,16075
+483,ProductCD,['W'],[],2,0.0,card1,16132
+484,ProductCD,['W'],[],2,0.0,card1,16255
+485,ProductCD,['W'],[],2,0.0,card1,16560
+486,ProductCD,['W'],[],2,0.0,card1,16632
+487,ProductCD,['W'],[],2,0.0,card1,16659
+488,ProductCD,['W'],[],2,0.0,card1,16774
+489,ProductCD,['R' 'W'],[],2,0.0,card1,16923
+490,ProductCD,['W'],[],2,0.0,card1,18132
+491,ProductCD,['R'],[],2,0.0,card1,18268
+492,ProductCD,['W'],[],2,0.0,card1,18335
+493,ProductCD,['W'],[],2,0.0,card1,18385
+494,ProductCD,['W'],[],2,0.0,card1,1013
+495,ProductCD,['W'],[],2,0.0,card1,2231
+496,ProductCD,['W'],[],2,0.0,card1,2977
+497,ProductCD,['W'],[],2,0.0,card1,3316
+498,ProductCD,['S' 'W'],[],2,0.0,card1,3331
+499,ProductCD,['H'],[],2,0.0,card1,4755
+500,ProductCD,['W'],[],2,0.0,card1,4967
+501,ProductCD,['S' 'W'],[],2,0.0,card1,4975
+502,ProductCD,['W'],[],2,0.0,card1,5033
+503,ProductCD,['W'],[],2,0.0,card1,5262
+504,ProductCD,['W'],[],2,0.0,card1,6292
+505,ProductCD,['R'],[],2,0.0,card1,6344
+506,ProductCD,['W'],[],2,0.0,card1,6394
+507,ProductCD,['W'],[],2,0.0,card1,7114
+508,ProductCD,['W'],[],2,0.0,card1,7585
+509,ProductCD,['W'],[],2,0.0,card1,7919
+510,ProductCD,['S'],[],2,0.0,card1,8287
+511,ProductCD,['W'],[],2,0.0,card1,9561
+512,ProductCD,['R' 'W'],[],2,0.0,card1,9803
+513,ProductCD,['W'],[],2,0.0,card1,10057
+514,ProductCD,['W'],[],2,0.0,card1,11339
+515,ProductCD,['S'],[],2,0.0,card1,11796
+516,ProductCD,['S' 'W'],"['ProductCD', 'ProductCD']",2,,card1,11839
+517,ProductCD,['W'],[],2,0.0,card1,12469
+518,ProductCD,['S'],[],2,0.0,card1,13465
+519,ProductCD,['W'],[],2,0.0,card1,14556
+520,ProductCD,['S'],[],2,0.0,card1,15668
+521,ProductCD,['W'],[],2,0.0,card1,16075
+522,ProductCD,['W'],[],2,1.0,card1,16927
+523,ProductCD,['W'],[],2,0.0,card1,17188
+524,ProductCD,['W'],[],2,0.0,card1,18132
+525,ProductCD,['H' 'S' 'W'],[],2,0.0,card5,102.0
+526,ProductCD,['W'],[],2,0.0,card5,117.0
+527,ProductCD,['H' 'S'],[],2,0.0,card5,118.0
+528,ProductCD,['W'],[],2,0.0,card5,126.0
+529,ProductCD,['R'],[],2,1.0,card5,129.0
+530,ProductCD,['R'],[],2,0.0,card5,133.0
+531,ProductCD,['H' 'R'],[],2,0.0,card5,146.0
+532,ProductCD,['R'],[],2,0.0,card5,150.0
+533,ProductCD,['R' 'W'],[],2,0.0,card5,162.0
+534,ProductCD,['W'],[],2,0.0,card5,166.0
+535,ProductCD,['R'],[],2,0.0,card5,190.0
+536,ProductCD,['H' 'R' 'W'],[],2,0.0,card5,195.0
+537,ProductCD,['R' 'W'],[],2,0.0,card5,197.0
+538,ProductCD,['R'],[],2,0.0,card5,198.0
+539,ProductCD,['W'],[],2,0.0,card5,202.0
+540,card1,[ 2039  3274  3821 10486 18054 18246],"['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",2,,card5,219.0
+541,C6,0.0,"['card1', 'card1']",2,,card5,224.0
+542,C10,3.0,"['card1', 'ProductCD']",2,,card5,226.0
+543,ProductCD,['R'],[],2,0.0,card5,228.0
+544,ProductCD,['W'],[],2,0.0,card5,229.0
+545,ProductCD,['H' 'R' 'W'],[],2,0.0,C4,2.0
+546,ProductCD,['R'],[],2,1.0,C4,3.0
+547,ProductCD,['C'],[],2,1.0,card1,3154
+548,ProductCD,['C'],[],2,0.0,card1,5583
+549,ProductCD,['W'],[],2,0.0,card1,1450
+550,ProductCD,['W'],[],2,0.0,card1,1893
+551,ProductCD,['R'],[],2,0.0,card1,2616
+552,ProductCD,['W'],[],2,0.0,card1,2622
+553,ProductCD,['W'],[],2,0.0,card1,2695
+554,ProductCD,['W'],[],2,0.0,card1,2755
+555,ProductCD,['W'],[],2,0.0,card1,2803
+556,ProductCD,['W'],[],2,0.0,card1,3009
+557,ProductCD,['W'],[],2,0.0,card1,3020
+558,ProductCD,['W'],[],2,0.0,card1,3368
+559,ProductCD,['W'],[],2,0.0,card1,3673
+560,ProductCD,['W'],[],2,0.0,card1,3681
+561,ProductCD,['W'],[],2,0.0,card1,3821
+562,ProductCD,['W'],[],2,0.0,card1,4141
+563,ProductCD,['W'],[],2,0.0,card1,4591
+564,ProductCD,['W'],[],2,0.0,card1,5613
+565,ProductCD,['R'],[],2,0.0,card1,6019
+566,ProductCD,['W'],[],2,0.0,card1,6481
+567,ProductCD,['W'],[],2,0.0,card1,6727
+568,ProductCD,['W'],[],2,0.0,card1,6940
+569,ProductCD,['W'],[],2,0.0,card1,7241
+570,ProductCD,['W'],[],2,0.0,card1,7264
+571,ProductCD,['W'],[],2,0.0,card1,7301
+572,ProductCD,['W'],[],2,0.0,card1,7585
+573,ProductCD,['W'],[],2,0.0,card1,7591
+574,ProductCD,['W'],[],2,0.0,card1,7919
+575,ProductCD,['W'],[],2,0.0,card1,8320
+576,ProductCD,['W'],[],2,0.0,card1,8431
+577,ProductCD,['W'],[],2,0.0,card1,8528
+578,ProductCD,['W'],[],2,0.0,card1,8613
+579,ProductCD,['W'],[],2,0.0,card1,9500
+580,ProductCD,['W'],[],2,0.0,card1,9992
+581,ProductCD,['W'],[],2,0.0,card1,10104
+582,ProductCD,['W'],[],2,0.0,card1,10763
+583,ProductCD,['W'],[],2,0.0,card1,10859
+584,ProductCD,['W'],[],2,0.0,card1,11157
+585,ProductCD,['W'],[],2,0.0,card1,12108
+586,ProductCD,['W'],[],2,0.0,card1,12308
+587,ProductCD,['W'],[],2,0.0,card1,12469
+588,ProductCD,['W'],[],2,0.0,card1,12577
+589,ProductCD,['W'],[],2,0.0,card1,12686
+590,ProductCD,['W'],[],2,0.0,card1,13111
+591,ProductCD,['W'],[],2,0.0,card1,13422
+592,ProductCD,['W'],[],2,0.0,card1,13500
+593,ProductCD,['R'],[],2,1.0,card1,15066
+594,ProductCD,['W'],[],2,0.0,card1,15239
+595,ProductCD,['W'],[],2,0.0,card1,15947
+596,ProductCD,['W'],[],2,0.0,card1,16255
+597,ProductCD,['W'],[],2,0.0,card1,16800
+598,ProductCD,['W'],[],2,1.0,card1,18268
+599,card1,"[ 1039  1284  1288  1444  1684  1741  1767  1893  1939  2202  2213  2251
+  2295  2332  2377  2392  2455  2616  2660  2689  2744  2755  2803  2848
+  2884  2914  3056  3181  3330  3361  3413  3484  3663  3681  3682  3821
+  4151  4174  4209  4227  4393  4413  4445  4451  4737  4951  4966  5033
+  5043  5645  5751  5815  5901  5938  6019  6053  6123  6180  6236  6432
+  6530  6536  6580  6598  6635  6729  6741  6773  6816  7149  7239  7243
+  7381  7504  7505  7508  7539  7585  7663  7664  7669  7680  7800  7861
+  7919  8024  8080  8131  8225  8310  8314  8320  8406  8468  8613  8637
+  8640  8868  9002  9237  9353  9354  9386  9449  9480  9500  9513  9705
+  9785  9803  9885 10023 10045 10112 10145 10332 10439 10486 10616 10629
+ 10723 10741 10756 10856 10975 10989 11106 11815 11919 12130 12133 12208
+ 12350 12351 12358 12484 12538 12544 12557 12577 12581 12648 12686 12718
+ 12822 12839 12926 13143 13249 13406 13414 13469 13511 13537 13565 13567
+ 13621 13623 14014 14079 14080 14089 14298 14305 14426 14575 14631 14682
+ 14803 15063 15066 15181 15185 15368 15484 15682 15736 15757 15811 15986
+ 16011 16048 16115 16132 16255 16313 16560 16562 16568 16630 16632 16659
+ 16845 16901 16954 17108 17131 17137 17188 17249 17335 17523 17913 18018
+ 18249 18268 18383]",[],2,0.0,C10,2.0
+600,ProductCD,['H' 'R'],[],2,1.0,C10,3.0
+601,ProductCD,['W'],[],2,0.0,card5,100.0
+602,card1,"[ 1976  2616  2755  3891  4039  4141  5609  7381  8727  9369  9552 12116
+ 13143 14182 14203 15066 16075 16691 17089]",[],2,0.0,card5,102.0
+603,ProductCD,['H' 'R' 'W'],[],2,0.0,card5,117.0
+604,ProductCD,['R'],[],2,0.0,card5,118.0
+605,ProductCD,['R'],[],2,0.0,card5,119.0
+606,TransactionDT,7883706.0,"['TransactionDT', 'ProductCD']",2,,card5,126.0
+607,ProductCD,['R'],[],2,0.0,card5,129.0
+608,ProductCD,['R'],[],2,0.0,card5,133.0
+609,ProductCD,['H' 'R' 'W'],[],2,0.0,card5,137.0
+610,ProductCD,['R'],[],2,0.0,card5,141.0
+611,ProductCD,['R'],[],2,0.0,card5,150.0
+612,ProductCD,['H' 'R' 'W'],[],2,0.0,card5,162.0
+613,ProductCD,['H' 'W'],[],2,0.0,card5,166.0
+614,ProductCD,['H'],[],2,0.0,card5,185.0
+615,ProductCD,['R'],[],2,0.0,card5,190.0
+616,ProductCD,['H' 'R' 'S' 'W'],[],2,0.0,card5,195.0
+617,ProductCD,['H'],[],2,0.0,card5,197.0
+618,ProductCD,['R'],[],2,0.0,card5,198.0
+619,ProductCD,['W'],[],2,0.0,card5,202.0
+620,ProductCD,['W'],[],2,0.0,card5,203.0
+621,ProductCD,['H' 'R' 'W'],[],2,0.0,card5,219.0
+622,ProductCD,['R'],[],2,0.0,card5,223.0
+623,card1,"[ 1137  1342  1359  1556  1893  2683  3510  5089  5558  6344  7468  7875
+  8225 10057 10682 11162 11630 12146 12538 13200 13626 13858 13899 13964
+ 15186 16752 18255]",[],2,0.0,card5,224.0
+624,card1,"[ 1120  1546  1607  1675  1724  2005  2311  2455  2607  2803  2884  2920
+  2960  3178  3337  3870  4100  4153  4197  4253  4272  5220  5409  5646
+  6019  6077  6487  6590  6832  7336  7585  7664  7676  7708  7861  7998
+  8501  8518  8695  9142  9394  9480  9500  9521  9537  9653  9749  9803
+  9876 10405 10616 11106 11207 11690 11839 11925 12489 12544 12570 12779
+ 12839 12873 13286 13555 13749 13840 13950 14771 14795 14839 15010 15063
+ 15406 15451 15484 15497 16064 16132 16326 16659 16727 17188 17480 17526
+ 17947 18268]",[],2,0.0,card5,226.0
+625,ProductCD,['R'],[],2,0.0,card5,228.0
+626,ProductCD,['W'],[],2,0.0,card5,229.0
+627,ProductCD,['H' 'R'],[],2,0.0,card5,236.0
+628,ProductCD,['W'],[],2,0.0,card1,1444
+629,ProductCD,['W'],[],2,0.0,card1,2392
+630,ProductCD,['W'],[],2,0.0,card1,2455
+631,ProductCD,['R'],[],2,0.0,card1,2616
+632,ProductCD,['W'],[],2,0.0,card1,2704
+633,ProductCD,['W'],[],2,0.0,card1,2721
+634,ProductCD,['W'],[],2,0.0,card1,2772
+635,ProductCD,['W'],[],2,0.0,card1,2803
+636,ProductCD,['R' 'W'],[],2,0.0,card1,2884
+637,ProductCD,['W'],[],2,0.0,card1,3682
+638,ProductCD,['R'],[],2,0.0,card1,3821
+639,ProductCD,['W'],[],2,0.0,card1,4090
+640,ProductCD,['W'],[],2,0.0,card1,4663
+641,ProductCD,['W'],[],2,0.0,card1,4806
+642,ProductCD,['W'],[],2,0.0,card1,4812
+643,ProductCD,['W'],[],2,0.0,card1,5409
+644,ProductCD,['W'],[],2,0.0,card1,5606
+645,ProductCD,['H'],[],2,0.0,card1,6019
+646,ProductCD,['H'],[],2,0.0,card1,6021
+647,ProductCD,['H'],[],2,1.0,card1,6344
+648,ProductCD,['W'],[],2,0.0,card1,6530
+649,ProductCD,['H' 'W'],[],2,0.0,card1,7005
+650,ProductCD,['W'],[],2,0.0,card1,7063
+651,ProductCD,['W'],[],2,0.0,card1,7474
+652,ProductCD,['W'],[],2,0.0,card1,7508
+653,ProductCD,['R'],[],2,0.0,card1,7585
+654,ProductCD,['W'],[],2,0.0,card1,7861
+655,ProductCD,['W'],[],2,0.0,card1,7919
+656,ProductCD,['W'],[],2,0.0,card1,7970
+657,ProductCD,['H'],[],2,0.0,card1,8088
+658,ProductCD,['W'],[],2,0.0,card1,8320
+659,ProductCD,['W'],[],2,0.0,card1,8378
+660,ProductCD,['W'],[],2,0.0,card1,8880
+661,ProductCD,['W'],[],2,0.0,card1,8908
+662,ProductCD,['W'],[],2,0.0,card1,8989
+663,ProductCD,['W'],[],2,0.0,card1,9002
+664,ProductCD,['W'],[],2,0.0,card1,9992
+665,ProductCD,['W'],[],2,0.0,card1,10045
+666,ProductCD,['W'],[],2,0.0,card1,10466
+667,ProductCD,['H' 'W'],[],2,0.0,card1,10486
+668,ProductCD,['R' 'S' 'W'],[],2,0.0,card1,10616
+669,ProductCD,['W'],[],2,0.0,card1,10626
+670,ProductCD,['W'],[],2,0.0,card1,10856
+671,ProductCD,['H' 'W'],[],2,0.0,card1,11942
+672,ProductCD,['W'],[],2,0.0,card1,12577
+673,ProductCD,['W'],[],2,0.0,card1,12695
+674,ProductCD,['W'],[],2,1.0,card1,13526
+675,ProductCD,['W'],[],2,0.0,card1,13534
+676,ProductCD,['W'],[],2,0.0,card1,14066
+677,ProductCD,['W'],[],2,0.0,card1,14084
+678,ProductCD,['W'],[],2,0.0,card1,14502
+679,ProductCD,['W'],[],2,0.0,card1,15066
+680,ProductCD,['W'],[],2,0.0,card1,15484
+681,ProductCD,['W'],[],2,0.0,card1,15497
+682,ProductCD,['W'],[],2,0.0,card1,15986
+683,ProductCD,['W'],[],2,0.0,card1,16160
+684,ProductCD,['W'],[],2,0.0,card1,16255
+685,ProductCD,['W'],[],2,0.0,card1,16362
+686,ProductCD,['W'],[],2,0.0,card1,16632
+687,ProductCD,['H'],[],2,0.0,card1,16659
+688,ProductCD,['W'],[],2,0.0,card1,17108
+689,ProductCD,['H' 'W'],[],2,0.0,card1,17188
+690,ProductCD,['W'],[],2,0.0,card1,17723
+691,ProductCD,['R'],[],2,0.0,card1,18305
+692,ProductCD,['R'],[],2,0.0,card1,1650
+693,ProductCD,['R'],[],2,0.0,card1,1724
+694,ProductCD,['W'],[],2,0.0,card1,2455
+695,ProductCD,['R'],[],2,0.0,card1,3821
+696,ProductCD,['W'],[],2,0.0,card1,5613
+697,ProductCD,['W'],[],2,0.0,card1,5938
+698,ProductCD,['W'],[],2,0.0,card1,6542
+699,ProductCD,['W'],[],2,0.0,card1,6564
+700,ProductCD,['W'],[],2,0.0,card1,6590
+701,ProductCD,['W'],[],2,0.0,card1,6739
+702,ProductCD,['W'],[],2,0.0,card1,7826
+703,ProductCD,['W'],[],2,0.0,card1,9500
+704,ProductCD,['W'],[],2,1.0,card1,10616
+705,ProductCD,['W'],[],2,0.0,card1,10811
+706,ProductCD,['W'],[],2,0.0,card1,11207
+707,ProductCD,['W'],[],2,1.0,card1,11218
+708,ProductCD,['W'],[],2,0.0,card1,12577
+709,ProductCD,['W'],[],2,0.0,card1,12932
+710,ProductCD,['W'],[],2,1.0,card1,14259
+711,ProductCD,['R' 'W'],[],2,0.0,card1,15815
+712,ProductCD,['W'],[],2,0.0,card1,1059
+713,ProductCD,['W'],[],2,0.0,card1,1342
+714,ProductCD,['W'],[],2,0.0,card1,1444
+715,ProductCD,['W'],[],2,0.0,card1,1775
+716,ProductCD,['W'],[],2,0.0,card1,1805
+717,ProductCD,['W'],[],2,0.0,card1,1859
+718,ProductCD,['W'],[],2,0.0,card1,1906
+719,ProductCD,['R' 'W'],[],2,0.0,card1,2303
+720,ProductCD,['W'],[],2,0.0,card1,2377
+721,ProductCD,['W'],[],2,0.0,card1,2383
+722,ProductCD,['W'],[],2,0.0,card1,2392
+723,ProductCD,['W'],[],2,0.0,card1,2567
+724,ProductCD,['W'],[],2,0.0,card1,2581
+725,ProductCD,['H' 'W'],[],2,0.0,card1,2616
+726,ProductCD,['R'],[],2,0.0,card1,2855
+727,ProductCD,['W'],[],2,0.0,card1,2884
+728,ProductCD,['W'],[],2,1.0,card1,2939
+729,ProductCD,['H'],[],2,0.0,card1,3004
+730,ProductCD,['W'],[],2,0.0,card1,3056
+731,ProductCD,['W'],[],2,0.0,card1,3603
+732,ProductCD,['W'],[],2,0.0,card1,3605
+733,ProductCD,['W'],[],2,0.0,card1,3682
+734,ProductCD,['W'],[],2,0.0,card1,3821
+735,ProductCD,['W'],[],2,0.0,card1,4030
+736,ProductCD,['W'],[],2,0.0,card1,4067
+737,ProductCD,['W'],[],2,0.0,card1,4079
+738,ProductCD,['W'],[],2,0.0,card1,4121
+739,ProductCD,['W'],[],2,0.0,card1,4148
+740,ProductCD,['R' 'W'],[],2,0.0,card1,4208
+741,ProductCD,['W'],[],2,0.0,card1,4253
+742,ProductCD,['W'],[],2,0.0,card1,4310
+743,ProductCD,['H'],[],2,0.0,card1,4425
+744,ProductCD,['W'],[],2,0.0,card1,4571
+745,ProductCD,['R'],[],2,0.0,card1,4643
+746,ProductCD,['W'],[],2,0.0,card1,4663
+747,ProductCD,['H'],[],2,0.0,card1,4679
+748,ProductCD,['W'],[],2,0.0,card1,4685
+749,ProductCD,['W'],[],2,0.0,card1,4845
+750,ProductCD,['W'],[],2,0.0,card1,4905
+751,ProductCD,['W'],[],2,0.0,card1,5047
+752,ProductCD,['W'],[],2,0.0,card1,5167
+753,ProductCD,['W'],[],2,0.0,card1,5170
+754,ProductCD,['W'],[],2,0.0,card1,5277
+755,ProductCD,['W'],[],2,0.0,card1,5376
+756,ProductCD,['W'],[],2,0.0,card1,5409
+757,ProductCD,['W'],[],2,0.0,card1,5556
+758,ProductCD,['W'],[],2,0.0,card1,5613
+759,ProductCD,['W'],[],2,0.0,card1,5629
+760,ProductCD,['H'],[],2,0.0,card1,5655
+761,ProductCD,['W'],[],2,0.0,card1,5660
+762,ProductCD,['W'],[],2,0.0,card1,5700
+763,ProductCD,['W'],[],2,0.0,card1,5901
+764,ProductCD,['H' 'W'],[],2,0.0,card1,5938
+765,ProductCD,['H' 'R' 'W'],[],2,0.0,card1,6019
+766,ProductCD,['W'],[],2,0.0,card1,6062
+767,ProductCD,['W'],[],2,0.0,card1,6204
+768,ProductCD,['W'],[],2,0.0,card1,6366
+769,ProductCD,['W'],[],2,0.0,card1,6530
+770,ProductCD,['W'],[],2,0.0,card1,6580
+771,ProductCD,['W'],[],2,0.0,card1,6592
+772,ProductCD,['W'],[],2,0.0,card1,6668
+773,TransactionDT,9077844.0,"['ProductCD', 'ProductCD']",2,,card1,6741
+774,ProductCD,['W'],[],2,0.0,card1,6755
+775,ProductCD,['H'],[],2,0.0,card1,6832
+776,ProductCD,['H' 'R'],[],2,0.0,card1,6896
+777,ProductCD,['W'],[],2,0.0,card1,7069
+778,ProductCD,['W'],[],2,0.0,card1,7121
+779,ProductCD,['W'],[],2,0.0,card1,7482
+780,ProductCD,['H' 'W'],[],2,0.0,card1,7585
+781,ProductCD,['W'],[],2,0.0,card1,7680
+782,ProductCD,['W'],[],2,0.0,card1,7757
+783,ProductCD,['H' 'W'],[],2,0.0,card1,7800
+784,ProductCD,['H' 'W'],[],2,0.0,card1,7826
+785,ProductCD,['W'],[],2,0.0,card1,7861
+786,ProductCD,['H'],[],2,0.0,card1,7892
+787,TransactionDT,147095.0,"['ProductCD', 'ProductCD']",2,,card1,7919
+788,ProductCD,['W'],[],2,0.0,card1,8003
+789,ProductCD,['W'],[],2,0.0,card1,8135
+790,ProductCD,['W'],[],2,0.0,card1,8320
+791,ProductCD,['R' 'W'],[],2,0.0,card1,8394
+792,ProductCD,['W'],[],2,0.0,card1,8431
+793,ProductCD,['R'],[],2,0.0,card1,8558
+794,ProductCD,['W'],[],2,0.0,card1,8695
+795,ProductCD,['W'],[],2,0.0,card1,8821
+796,ProductCD,['W'],[],2,0.0,card1,9072
+797,ProductCD,['W'],[],2,0.0,card1,9166
+798,ProductCD,['R'],[],2,0.0,card1,9263
+799,ProductCD,['W'],[],2,1.0,card1,9499
+800,ProductCD,['R' 'W'],[],2,0.0,card1,9500
+801,ProductCD,['W'],[],2,0.0,card1,9515
+802,ProductCD,['W'],[],2,0.0,card1,9645
+803,ProductCD,['H'],[],2,0.0,card1,9803
+804,ProductCD,['H' 'W'],[],2,0.0,card1,9891
+805,ProductCD,['W'],[],2,0.0,card1,10023
+806,ProductCD,['W'],[],2,0.0,card1,10112
+807,TransactionDT,2321748.0,"['ProductCD', 'ProductCD']",2,,card1,10186
+808,ProductCD,['W'],[],2,0.0,card1,10267
+809,ProductCD,['W'],[],2,0.0,card1,10278
+810,ProductCD,['H'],[],2,0.0,card1,10486
+811,ProductCD,['W'],[],2,0.0,card1,10565
+812,ProductCD,['W'],[],2,0.0,card1,10594
+813,ProductCD,['W'],[],2,0.0,card1,10616
+814,ProductCD,['W'],[],2,0.0,card1,10856
+815,ProductCD,['H' 'R' 'S' 'W'],[],2,0.0,card1,11207
+816,ProductCD,['W'],[],2,1.0,card1,11233
+817,ProductCD,['W'],[],2,0.0,card1,11371
+818,ProductCD,['W'],[],2,0.0,card1,11388
+819,ProductCD,['R'],[],2,0.0,card1,11520
+820,ProductCD,['S'],[],2,0.0,card1,11575
+821,ProductCD,['W'],[],2,0.0,card1,11815
+822,ProductCD,['H' 'W'],[],2,0.0,card1,11862
+823,ProductCD,['W'],[],2,0.0,card1,11919
+824,ProductCD,['W'],[],2,0.0,card1,11972
+825,ProductCD,['W'],[],2,0.0,card1,12037
+826,ProductCD,['H'],[],2,1.0,card1,12039
+827,ProductCD,['W'],[],2,0.0,card1,12116
+828,ProductCD,['W'],[],2,0.0,card1,12253
+829,ProductCD,['W'],[],2,0.0,card1,12308
+830,ProductCD,['W'],[],2,0.0,card1,12364
+831,ProductCD,['W'],[],2,0.0,card1,12469
+832,ProductCD,['W'],[],2,0.0,card1,12501
+833,ProductCD,['W'],[],2,0.0,card1,12538
+834,ProductCD,['W'],[],2,0.0,card1,12544
+835,ProductCD,['W'],[],2,0.0,card1,12567
+836,ProductCD,['W'],[],2,0.0,card1,12577
+837,ProductCD,['W'],[],2,0.0,card1,12590
+838,ProductCD,['W'],[],2,0.0,card1,12615
+839,ProductCD,['W'],[],2,0.0,card1,12668
+840,TransactionDT,15095585.0,"['C12', 'ProductCD']",2,,card1,12695
+841,ProductCD,['W'],[],2,0.0,card1,12747
+842,ProductCD,['W'],[],2,0.0,card1,12839
+843,ProductCD,['H'],[],2,0.0,card1,12883
+844,ProductCD,['W'],[],2,0.0,card1,12932
+845,ProductCD,['H' 'W'],[],2,0.0,card1,13052
+846,ProductCD,['W'],[],2,0.0,card1,13095
+847,ProductCD,['W'],[],2,0.0,card1,13178
+848,ProductCD,['W'],[],2,0.0,card1,13307
+849,ProductCD,['R' 'W'],[],2,0.0,card1,13481
+850,ProductCD,['W'],[],2,0.0,card1,13825
+851,ProductCD,['W'],[],2,0.0,card1,13833
+852,ProductCD,['W'],[],2,0.0,card1,13906
+853,ProductCD,['W'],[],2,0.0,card1,14079
+854,ProductCD,['W'],[],2,0.0,card1,14098
+855,ProductCD,['W'],[],2,0.0,card1,14102
+856,ProductCD,['W'],[],2,0.0,card1,14278
+857,ProductCD,['W'],[],2,0.0,card1,14382
+858,ProductCD,['W'],[],2,0.0,card1,14415
+859,ProductCD,['W'],[],2,0.0,card1,14574
+860,ProductCD,['H'],[],2,0.0,card1,14627
+861,ProductCD,['H' 'W'],[],2,0.0,card1,14858
+862,ProductCD,['H' 'W'],[],2,0.0,card1,15066
+863,ProductCD,['W'],[],2,0.0,card1,15184
+864,ProductCD,['W'],[],2,0.0,card1,15205
+865,ProductCD,['R' 'W'],[],2,0.0,card1,15359
+866,ProductCD,['H'],[],2,0.0,card1,15511
+867,ProductCD,['W'],[],2,0.0,card1,15773
+868,ProductCD,['W'],[],2,0.0,card1,15986
+869,ProductCD,['W'],[],2,0.0,card1,16034
+870,ProductCD,['W'],[],2,1.0,card1,16053
+871,ProductCD,['W'],[],2,0.0,card1,16075
+872,ProductCD,['W'],[],2,0.0,card1,16116
+873,ProductCD,['W'],[],2,0.0,card1,16131
+874,ProductCD,['H' 'W'],[],2,0.0,card1,16163
+875,ProductCD,['W'],[],2,0.0,card1,16188
+876,ProductCD,['W'],[],2,0.0,card1,16189
+877,ProductCD,['R'],[],2,0.0,card1,16379
+878,ProductCD,['W'],[],2,0.0,card1,16437
+879,ProductCD,['W'],[],2,0.0,card1,16560
+880,ProductCD,['W'],[],2,0.0,card1,16659
+881,ProductCD,['H'],[],2,0.0,card1,16809
+882,ProductCD,['H'],[],2,0.0,card1,16873
+883,ProductCD,['R'],[],2,0.0,card1,16914
+884,ProductCD,['W'],[],2,0.0,card1,17020
+885,ProductCD,['W'],[],2,0.0,card1,17055
+886,ProductCD,['W'],[],2,0.0,card1,17318
+887,ProductCD,['R'],[],2,0.0,card1,17374
+888,ProductCD,['W'],[],2,0.0,card1,17404
+889,ProductCD,['W'],[],2,0.0,card1,17422
+890,ProductCD,['W'],[],2,0.0,card1,17635
+891,ProductCD,['W'],[],2,0.0,card1,17684
+892,ProductCD,['W'],[],2,0.0,card1,17729
+893,ProductCD,['W'],[],2,0.0,card1,17872
+894,ProductCD,['W'],[],2,0.0,card1,17939
+895,ProductCD,['W'],[],2,0.0,card1,18072
+896,ProductCD,['W'],[],2,0.0,card1,18103
+897,ProductCD,['W'],[],2,0.0,card1,18117
+898,ProductCD,['W'],[],2,0.0,card1,18154
+899,ProductCD,['H' 'W'],[],2,0.0,card1,18211
+900,ProductCD,['W'],[],2,0.0,card1,18249
+901,ProductCD,['W'],[],2,0.0,card1,18281
+902,ProductCD,['W'],[],2,0.0,card1,18292
+903,ProductCD,['W'],[],2,0.0,card1,18350
+904,ProductCD,['R'],[],2,0.0,card1,1214
+905,ProductCD,['W'],[],2,0.0,card1,1444
+906,ProductCD,['W'],[],2,0.0,card1,1570
+907,ProductCD,['W'],[],2,0.0,card1,1595
+908,ProductCD,['H' 'R'],[],2,0.0,card1,1724
+909,ProductCD,['W'],[],2,0.0,card1,1893
+910,ProductCD,['W'],[],2,0.0,card1,1919
+911,ProductCD,['W'],[],2,0.0,card1,2114
+912,ProductCD,['W'],[],2,0.0,card1,2162
+913,ProductCD,['W'],[],2,0.0,card1,2392
+914,ProductCD,['W'],[],2,0.0,card1,2538
+915,ProductCD,['W'],[],2,0.0,card1,2569
+916,ProductCD,['R'],[],2,0.0,card1,2616
+917,ProductCD,['W'],[],2,0.0,card1,2646
+918,ProductCD,['R'],[],2,0.0,card1,2782
+919,ProductCD,['W'],[],2,0.0,card1,3681
+920,ProductCD,['W'],[],2,0.0,card1,4067
+921,ProductCD,['W'],[],2,0.0,card1,4472
+922,ProductCD,['W'],[],2,0.0,card1,4806
+923,ProductCD,['H'],[],2,0.0,card1,4908
+924,ProductCD,['R'],[],2,1.0,card1,5033
+925,ProductCD,['W'],[],2,0.0,card1,5248
+926,ProductCD,['W'],[],2,0.0,card1,5719
+927,ProductCD,['W'],[],2,0.0,card1,5902
+928,ProductCD,['R'],[],2,0.0,card1,6065
+929,ProductCD,['W'],[],2,0.0,card1,6170
+930,ProductCD,['S'],[],2,0.0,card1,6517
+931,ProductCD,['R'],[],2,0.0,card1,7670
+932,ProductCD,['W'],[],2,0.0,card1,7815
+933,ProductCD,['W'],[],2,0.0,card1,7861
+934,ProductCD,['W'],[],2,0.0,card1,7919
+935,ProductCD,['R' 'W'],[],2,0.0,card1,8117
+936,ProductCD,['W'],[],2,0.0,card1,8414
+937,ProductCD,['W'],[],2,0.0,card1,9678
+938,ProductCD,['R'],[],2,0.0,card1,9803
+939,ProductCD,['W'],[],2,0.0,card1,9808
+940,ProductCD,['W'],[],2,0.0,card1,10057
+941,ProductCD,['W'],[],2,0.0,card1,10454
+942,ProductCD,['H'],[],2,0.0,card1,10486
+943,ProductCD,['H' 'W'],[],2,0.0,card1,10616
+944,ProductCD,['W'],[],2,0.0,card1,10856
+945,ProductCD,['W'],[],2,0.0,card1,10989
+946,ProductCD,['W'],[],2,1.0,card1,11167
+947,ProductCD,['H'],[],2,0.0,card1,11660
+948,ProductCD,['W'],[],2,0.0,card1,11717
+949,ProductCD,['W'],[],2,0.0,card1,11783
+950,ProductCD,['W'],[],2,0.0,card1,11815
+951,ProductCD,['W'],[],2,0.0,card1,12293
+952,ProductCD,['W'],[],2,0.0,card1,12502
+953,ProductCD,['R'],[],2,0.0,card1,12692
+954,ProductCD,['W'],[],2,0.0,card1,12784
+955,ProductCD,['W'],[],2,0.0,card1,12802
+956,ProductCD,['W'],[],2,0.0,card1,12850
+957,ProductCD,['W'],[],2,0.0,card1,13398
+958,ProductCD,['W'],[],2,0.0,card1,14042
+959,ProductCD,['W'],[],2,0.0,card1,14479
+960,ProductCD,['W'],[],2,0.0,card1,14842
+961,ProductCD,['R'],[],2,0.0,card1,15063
+962,ProductCD,['W'],[],2,0.0,card1,15066
+963,ProductCD,['W'],[],2,0.0,card1,15757
+964,ProductCD,['W'],[],2,0.0,card1,16315
+965,ProductCD,['W'],[],2,0.0,card1,16476
+966,ProductCD,['W'],[],2,0.0,card1,16554
+967,ProductCD,['R' 'W'],[],2,0.0,card1,16661
+968,ProductCD,['W'],[],2,0.0,card1,17188
+969,ProductCD,['H'],[],2,0.0,card1,17409
+970,ProductCD,['W'],[],2,0.0,card1,17910
+971,ProductCD,['H'],[],2,0.0,card1,18227
+972,ProductCD,['H' 'W'],[],2,0.0,card1,18268
+973,ProductCD,['W'],[],2,0.0,card1,18343
+974,ProductCD,['R'],[],2,0.0,card1,1476
+975,ProductCD,['W'],[],2,0.0,card1,1563
+976,ProductCD,['W'],[],2,0.0,card1,1675
+977,ProductCD,['W'],[],2,0.0,card1,1874
+978,ProductCD,['W'],[],2,0.0,card1,1893
+979,ProductCD,['W'],[],2,0.0,card1,1922
+980,ProductCD,['W'],[],2,0.0,card1,1939
+981,ProductCD,['W'],[],2,0.0,card1,2270
+982,ProductCD,['W'],[],2,0.0,card1,2377
+983,ProductCD,['W'],[],2,0.0,card1,2392
+984,ProductCD,['R'],[],2,0.0,card1,2616
+985,ProductCD,['W'],[],2,0.0,card1,2803
+986,ProductCD,['H'],[],2,0.0,card1,3278
+987,ProductCD,['W'],[],2,0.0,card1,3288
+988,ProductCD,['H' 'W'],[],2,0.0,card1,3682
+989,ProductCD,['W'],[],2,0.0,card1,3786
+990,ProductCD,['R'],[],2,0.0,card1,3821
+991,ProductCD,['W'],[],2,0.0,card1,4053
+992,ProductCD,['S'],[],2,0.0,card1,4074
+993,ProductCD,['R'],[],2,0.0,card1,4141
+994,ProductCD,['R'],[],2,0.0,card1,4161
+995,ProductCD,['R'],[],2,0.0,card1,4425
+996,ProductCD,['W'],[],2,0.0,card1,4436
+997,ProductCD,['W'],[],2,0.0,card1,4490
+998,ProductCD,['W'],[],2,0.0,card1,4527
+999,ProductCD,['W'],[],2,0.0,card1,4663
+1000,ProductCD,['R'],[],2,0.0,card1,4764
+1001,ProductCD,['W'],[],2,0.0,card1,5033
+1002,ProductCD,['S'],[],2,0.0,card1,5051
+1003,ProductCD,['W'],[],2,0.0,card1,5146
+1004,ProductCD,['W'],[],2,0.0,card1,5211
+1005,ProductCD,['W'],[],2,1.0,card1,5645
+1006,ProductCD,['W'],[],2,0.0,card1,5700
+1007,ProductCD,['R'],[],2,0.0,card1,5957
+1008,ProductCD,['W'],[],2,0.0,card1,6019
+1009,ProductCD,['H'],[],2,0.0,card1,6068
+1010,ProductCD,['S' 'W'],[],2,0.0,card1,6207
+1011,ProductCD,['W'],[],2,0.0,card1,6457
+1012,ProductCD,['W'],[],2,0.0,card1,6580
+1013,ProductCD,['W'],[],2,0.0,card1,6609
+1014,ProductCD,['R'],[],2,0.0,card1,6741
+1015,ProductCD,['W'],[],2,0.0,card1,6872
+1016,ProductCD,['H' 'W'],[],2,0.0,card1,6951
+1017,ProductCD,['W'],[],2,1.0,card1,7207
+1018,ProductCD,['W'],[],2,0.0,card1,7234
+1019,ProductCD,['W'],[],2,0.0,card1,7511
+1020,ProductCD,['R' 'W'],[],2,0.0,card1,7585
+1021,ProductCD,['W'],[],2,0.0,card1,7663
+1022,ProductCD,['W'],[],2,0.0,card1,7680
+1023,ProductCD,['W'],[],2,0.0,card1,7861
+1024,ProductCD,['W'],[],2,0.0,card1,7919
+1025,ProductCD,['W'],[],2,0.0,card1,8320
+1026,ProductCD,['H' 'W'],[],2,0.0,card1,8406
+1027,ProductCD,['W'],[],2,0.0,card1,8691
+1028,ProductCD,['W'],[],2,0.0,card1,8695
+1029,ProductCD,['S'],[],2,1.0,card1,8732
+1030,ProductCD,['S'],[],2,1.0,card1,8801
+1031,ProductCD,['R'],[],2,0.0,card1,8830
+1032,ProductCD,['R'],[],2,0.0,card1,8908
+1033,ProductCD,['W'],[],2,0.0,card1,8987
+1034,TransactionAmt,240.0,"['ProductCD', 'ProductCD']",2,,card1,9112
+1035,ProductCD,['W'],[],2,0.0,card1,9500
+1036,ProductCD,['S' 'W'],[],2,0.0,card1,9559
+1037,ProductCD,['H'],[],2,0.0,card1,9749
+1038,ProductCD,['H'],[],2,0.0,card1,9885
+1039,ProductCD,['W'],[],2,0.0,card1,9992
+1040,ProductCD,['R' 'W'],[],2,0.0,card1,10057
+1041,ProductCD,['W'],[],2,0.0,card1,10112
+1042,ProductCD,['W'],[],2,0.0,card1,10254
+1043,ProductCD,['W'],[],2,0.0,card1,10258
+1044,ProductCD,['W'],[],2,0.0,card1,10471
+1045,ProductCD,['W'],[],2,0.0,card1,10486
+1046,ProductCD,['S'],[],2,0.0,card1,10532
+1047,ProductCD,['W'],[],2,0.0,card1,10613
+1048,ProductCD,['W'],[],2,0.0,card1,10616
+1049,ProductCD,['S'],[],2,0.0,card1,10754
+1050,ProductCD,['W'],[],2,0.0,card1,10795
+1051,ProductCD,['W'],[],2,0.0,card1,10856
+1052,ProductCD,['S'],[],2,0.0,card1,10888
+1053,ProductCD,['W'],[],2,0.0,card1,10960
+1054,ProductCD,['W'],[],2,0.0,card1,10989
+1055,ProductCD,['W'],[],2,0.0,card1,11157
+1056,ProductCD,['W'],[],2,0.0,card1,11905
+1057,ProductCD,['W'],[],2,0.0,card1,12063
+1058,ProductCD,['W'],[],2,0.0,card1,12148
+1059,ProductCD,['W'],[],2,0.0,card1,12192
+1060,ProductCD,['W'],[],2,0.0,card1,12211
+1061,ProductCD,['W'],[],2,0.0,card1,12467
+1062,ProductCD,['W'],[],2,0.0,card1,12501
+1063,ProductCD,['H' 'R' 'S' 'W'],[],2,0.0,card1,12544
+1064,ProductCD,['W'],[],2,0.0,card1,12932
+1065,ProductCD,['W'],[],2,0.0,card1,13307
+1066,ProductCD,['W'],[],2,0.0,card1,13511
+1067,TransactionDT,10718438.0,"['ProductCD', 'TransactionDT']",2,,card1,13780
+1068,ProductCD,['S'],[],2,0.0,card1,14065
+1069,ProductCD,['W'],[],2,0.0,card1,14118
+1070,ProductCD,['H'],[],2,0.0,card1,14216
+1071,C2,3.0,"['ProductCD', 'ProductCD']",2,,card1,14649
+1072,ProductCD,['R' 'W'],[],2,0.0,card1,14849
+1073,ProductCD,['S' 'W'],[],2,0.0,card1,14902
+1074,ProductCD,['W'],[],2,0.0,card1,14960
+1075,ProductCD,['R'],[],2,0.0,card1,15011
+1076,ProductCD,['S'],[],2,0.0,card1,15063
+1077,ProductCD,['H' 'W'],[],2,0.0,card1,15066
+1078,ProductCD,['W'],[],2,0.0,card1,15205
+1079,ProductCD,['W'],[],2,0.0,card1,15385
+1080,ProductCD,['W'],[],2,0.0,card1,15592
+1081,ProductCD,['W'],[],2,0.0,card1,15715
+1082,ProductCD,['H' 'W'],[],2,0.0,card1,15813
+1083,ProductCD,['W'],[],2,0.0,card1,15986
+1084,ProductCD,['W'],[],2,0.0,card1,15998
+1085,ProductCD,['W'],[],2,0.0,card1,16188
+1086,ProductCD,['W'],[],2,0.0,card1,16255
+1087,ProductCD,['W'],[],2,0.0,card1,16279
+1088,ProductCD,['R'],[],2,0.0,card1,16659
+1089,ProductCD,['W'],[],2,0.0,card1,16923
+1090,ProductCD,['H'],[],2,0.0,card1,16960
+1091,ProductCD,['H'],[],2,0.0,card1,17009
+1092,ProductCD,['W'],[],2,0.0,card1,17336
+1093,ProductCD,['H'],[],2,0.0,card1,17400
+1094,ProductCD,['S'],[],2,0.0,card1,17872
+1095,ProductCD,['W'],[],2,0.0,card1,18054
+1096,ProductCD,['W'],[],2,0.0,card1,18132
+1097,ProductCD,['W'],[],2,0.0,card1,18249
+1098,ProductCD,['W'],[],2,0.0,card1,1893
+1099,ProductCD,['R'],[],2,0.0,card1,2150
+1100,ProductCD,['W'],[],2,0.0,card1,2170
+1101,ProductCD,['W'],[],2,0.0,card1,2383
+1102,ProductCD,['W'],[],2,0.0,card1,3310
+1103,ProductCD,['W'],[],2,0.0,card1,3928
+1104,ProductCD,['W'],[],2,0.0,card1,4208
+1105,ProductCD,['W'],[],2,0.0,card1,4219
+1106,ProductCD,['R'],[],2,0.0,card1,4436
+1107,ProductCD,['W'],[],2,0.0,card1,4663
+1108,ProductCD,['W'],[],2,0.0,card1,5469
+1109,ProductCD,['W'],[],2,0.0,card1,5901
+1110,ProductCD,['W'],[],2,0.0,card1,5911
+1111,ProductCD,['W'],[],2,1.0,card1,5997
+1112,ProductCD,['H' 'R' 'W'],[],2,0.0,card1,6019
+1113,ProductCD,['W'],[],2,0.0,card1,6053
+1114,ProductCD,['W'],[],2,0.0,card1,6128
+1115,ProductCD,['H'],[],2,0.0,card1,6820
+1116,ProductCD,['W'],[],2,0.0,card1,7069
+1117,ProductCD,['H'],[],2,0.0,card1,7585
+1118,ProductCD,['W'],[],2,0.0,card1,7835
+1119,ProductCD,['W'],[],2,0.0,card1,7919
+1120,ProductCD,['W'],[],2,0.0,card1,8106
+1121,ProductCD,['W'],[],2,0.0,card1,9749
+1122,ProductCD,['W'],[],2,0.0,card1,10112
+1123,ProductCD,['H' 'W'],[],2,0.0,card1,10616
+1124,ProductCD,['W'],[],2,0.0,card1,11477
+1125,ProductCD,['R'],[],2,0.0,card1,11690
+1126,ProductCD,['R'],[],2,0.0,card1,11862
+1127,ProductCD,['W'],[],2,0.0,card1,12973
+1128,ProductCD,['W'],[],2,0.0,card1,13155
+1129,ProductCD,['W'],[],2,0.0,card1,13220
+1130,ProductCD,['W'],[],2,0.0,card1,13283
+1131,ProductCD,['W'],[],2,0.0,card1,13307
+1132,ProductCD,['W'],[],2,0.0,card1,13443
+1133,ProductCD,['W'],[],2,0.0,card1,13481
+1134,ProductCD,['W'],[],2,0.0,card1,14182
+1135,ProductCD,['R'],[],2,0.0,card1,14349
+1136,ProductCD,['W'],[],2,0.0,card1,14517
+1137,ProductCD,['W'],[],2,0.0,card1,14762
+1138,ProductCD,['W'],[],2,0.0,card1,15066
+1139,ProductCD,['R'],[],2,0.0,card1,15359
+1140,ProductCD,['W'],[],2,0.0,card1,15406
+1141,ProductCD,['H' 'W'],"['ProductCD', 'ProductCD']",2,,card1,15773
+1142,ProductCD,['W'],[],2,0.0,card1,16070
+1143,ProductCD,['H'],[],2,0.0,card1,16075
+1144,ProductCD,['W'],[],2,0.0,card1,16473
+1145,ProductCD,['R'],[],2,0.0,card1,16659
+1146,ProductCD,['W'],[],2,0.0,card1,16922
+1147,ProductCD,['W'],[],2,0.0,card1,17055
+1148,ProductCD,['W'],[],2,0.0,card1,17223
+1149,ProductCD,['W'],[],2,0.0,card1,17321
+1150,ProductCD,['W'],[],2,0.0,card1,17868
+1151,ProductCD,['W'],[],2,0.0,card1,18215
+1152,ProductCD,['H' 'W'],[],2,0.0,card1,18268
+1153,ProductCD,['H'],[],2,0.0,ProductCD,H
+1154,ProductCD,['R'],[],2,1.0,ProductCD,R
+1155,ProductCD,['W'],[],2,0.0,ProductCD,W
+1156,ProductCD,['R'],[],2,0.0,card1,4377
+1157,ProductCD,['R'],[],2,0.0,card1,5599
+1158,ProductCD,['R'],[],2,0.0,card1,5968
+1159,ProductCD,['R'],[],2,1.0,card1,9849
+1160,ProductCD,['W'],[],3,0.0,TransactionDT,7078256.0
+1161,TransactionDT,9576418.0,"['ProductCD', 'ProductCD']",3,,TransactionDT,7078257.0
+1162,TransactionDT,1029955.0,"['ProductCD', 'ProductCD']",3,,TransactionDT,1132054.0
+1163,ProductCD,['W'],[],3,0.0,TransactionDT,1132055.0
+1164,ProductCD,['S'],[],3,1.0,ProductCD,S
+1165,ProductCD,['W'],[],3,0.0,ProductCD,W
+1166,ProductCD,['W'],[],3,0.0,card1,2039
+1167,ProductCD,['W'],[],3,1.0,card1,3274
+1168,ProductCD,['W'],[],3,0.0,card1,3821
+1169,ProductCD,['R' 'W'],[],3,0.0,card1,10486
+1170,ProductCD,['W'],[],3,0.0,card1,18054
+1171,ProductCD,['W'],[],3,0.0,card1,18246
+1172,card1,[ 6968  9753 14426 17208 17399],"['ProductCD', 'ProductCD', 'ProductCD', 'ProductCD', 'ProductCD']",3,,C6,0.0
+1173,card1,"[ 1342  1893  3368  3379  3605  6968  8431  8821  9740 10057 12002 12556
+ 12615 13883 15124 15142 15856 17116 17208 17399 17465]",[],3,0.0,C6,1.0
+1174,card1,"[ 1225  1252  1546  1675  2074  2318  2455  2612  2695  2803  2884  3278
+  3786  4030  4045  4121  4436  4456  4609  4726  4806  5291  5446  5629
+  5653  5711  5829  5901  6019  6021  6170  6520  6727  6816  6832  6877
+  6951  7207  7414  7585  7861  8117  8135  8406  8556  9002  9398  9426
+  9436  9455  9480  9500  9537  9803  9964 10023 10585 10616 10948 11157
+ 11207 11280 11386 11454 11708 11738 11899 12063 12163 12235 12260 12501
+ 12557 12664 12695 12725 12820 12932 13234 13260 13543 14135 14318 14356
+ 14512 14741 15063 15484 16135 16163 16326 16659 16661 16873 17188 17223
+ 17442 18039 18200 18226 18268]",[],3,0.0,C10,3.0
+1175,ProductCD,['R' 'S'],"['ProductCD', 'ProductCD']",3,,C10,4.0
+1176,TransactionDT,7702274.0,"['ProductCD', 'ProductCD']",3,,TransactionDT,7883706.0
+1177,ProductCD,['W'],[],3,0.0,TransactionDT,7883707.0
+1178,ProductCD,['W'],[],3,0.0,TransactionDT,9077844.0
+1179,ProductCD,['W'],[],3,1.0,TransactionDT,9077845.0
+1180,ProductCD,['W'],[],3,1.0,TransactionDT,147095.0
+1181,ProductCD,['W'],[],3,0.0,TransactionDT,147096.0
+1182,ProductCD,['W'],[],3,1.0,TransactionDT,2321748.0
+1183,ProductCD,['W'],[],3,0.0,TransactionDT,2321749.0
+1184,C12,0.0,"['ProductCD', 'TransactionDT']",3,,TransactionDT,15095585.0
+1185,ProductCD,['W'],[],3,1.0,TransactionDT,15095586.0
+1186,ProductCD,['H' 'S' 'W'],[],3,0.0,TransactionAmt,240.0
+1187,ProductCD,['H'],[],3,1.0,TransactionAmt,241.0
+1188,ProductCD,['W'],[],3,0.0,TransactionDT,10718438.0
+1189,TransactionDT,12273437.0,"['ProductCD', 'ProductCD']",3,,TransactionDT,10718439.0
+1190,ProductCD,['R' 'W'],[],3,0.0,C2,3.0
+1191,ProductCD,['W'],[],3,1.0,C2,4.0
+1192,ProductCD,['H'],[],3,1.0,ProductCD,H
+1193,ProductCD,['W'],[],3,0.0,ProductCD,W
+1194,ProductCD,['W'],[],4,1.0,TransactionDT,9576418.0
+1195,ProductCD,['W'],[],4,0.0,TransactionDT,9576419.0
+1196,ProductCD,['W'],[],4,0.0,TransactionDT,1029955.0
+1197,ProductCD,['W'],[],4,1.0,TransactionDT,1029956.0
+1198,ProductCD,['W'],[],4,0.0,card1,6968
+1199,ProductCD,['W'],[],4,0.0,card1,9753
+1200,ProductCD,['W'],[],4,0.0,card1,14426
+1201,ProductCD,['W'],[],4,0.0,card1,17208
+1202,ProductCD,['W'],[],4,1.0,card1,17399
+1203,ProductCD,['R'],[],4,0.0,ProductCD,R
+1204,ProductCD,['S'],[],4,1.0,ProductCD,S
+1205,ProductCD,['W'],[],4,0.0,TransactionDT,7702274.0
+1206,ProductCD,['W'],[],4,1.0,TransactionDT,7702275.0
+1207,ProductCD,['H' 'R' 'W'],[],4,0.0,C12,0.0
+1208,TransactionDT,13041933.0,[],4,0.0,C12,1.0
+1209,ProductCD,['W'],[],4,1.0,TransactionDT,12273437.0
+1210,ProductCD,['W'],[],4,0.0,TransactionDT,12273438.0
